@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<!--
+This is the html code that will be read by every page.
+It contains the css, website icon, and menu bar (desktop and mobile)
+
+Add it to a page by adding this line to the header:
+    <?ph p include('titlebar.html'); ?>
+Note that a space was added to "php" to avoid a recursive loop
+
+Please note that the file must be renamed to have a .php extension. This is still read the same as a normal .html page.
+e.g. rename hackathon-2022.html to hackathon-2022.php
+
+Also be aware that this may not work on a testing server that doesn't have php installed and correctly configured.
+This is a pain to do, so test pages by copying the stylesheet and imagining a menu bar.
+-->
+
+
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="light.css">
+<link rel = "shortcut icon" href="favicon.png">
+<script src="darkmode.js"></script>
+
+<div id="title_bar_div" class="title_bar">
+    <!--Left part of title bar-->
+    <div style="width:40%; float:left;" class="logo title_bar">
+        <a href="new"><img align="center" src="favicon_large.png" alt="CSHS logo" class="logo" ></a>
+        <img src="dark_mode_icon.png" onclick="darkMode();"
+             style=" padding-left:45px;" class="logo"/>
+    </div>
+
+    <!--Right part of title bar-->
+    <div style="width:60%;" class="link_section title_bar">
+
+        <nav class="desktop-only">
+            <!-- Desktop menu items-->
+            <a href="signup.php">Join CSHS!</a>
+            <a href="https://forms.gle/dYResAgdxCQoMc9HA">Fossil App Ideas </a>
+        </nav>
+
+        <img src="menu_green.png" class="mobile-only" onclick="showMenu()"
+             style="float:right; width:auto; height:100%;"/>
+
+    </div>
+
+
+
+</div>
+
+<div id="menu_div" style="display:none;">
+        <!-- Mobile menu items-->
+        <p><a class="mobile_menu_item" href="signup.php">Join CSHS!</a></p>
+        <p><a class="mobile_menu_item" href="https://forms.gle/dYResAgdxCQoMc9HA">Fossil App Ideas </a></p>
+    </div>
+
+
+<script>
+    function showMenu(){
+        if(document.getElementById('menu_div').style.display == 'none'){
+            document.getElementById('menu_div').style.display = 'block'
+        } else {
+            document.getElementById('menu_div').style.display = 'none'
+        }
+    }
+</script>
+
+
+
+
+
+</html>

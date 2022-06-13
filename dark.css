@@ -1,0 +1,39 @@
+body {
+	background-color: black;
+}
+h1{
+	color: lime;
+	font-family: "Source Code Pro", "Courier New", monospace;
+}
+h2{
+	color: lime;
+	font-family: "Source Code Pro", "Courier New", monospace;
+}
+h3{
+	color: lime;
+	font-family: "Source Code Pro", "Courier New", monospace;
+}
+p{
+	color: limegreen;
+	font-family: "Source Code Pro", "Courier New", monospace;
+}
+li{
+	color: limegreen;
+	font-family: "Source Code Pro", "Courier New", monospace;
+}
+td{
+	color: limegreen;
+	font-family: "Source Code Pro", "Courier New", monospace;
+}
+label{
+    color: limegreen;
+    font-family: "Source Code Pro", "Courier New", monospace;
+}
+
+.title_bar {
+    background: #001900;
+}
+
+.primary_div {
+    background:black;
+}

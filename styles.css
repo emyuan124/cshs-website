@@ -1,0 +1,161 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+h1, h2, h3 {
+    font-weight:bold;
+}
+h1{
+	margin:10px;
+	font-size: 120px;
+}
+h2{
+	margin:10px;
+	font-size: 45px;
+}
+h3{
+	margin:10px;
+	font-size: 35vw;
+}
+p{
+	margin:1vw;
+	font-size: 25px;
+}
+li{
+	margin:10px;
+}
+td{
+	margin:10px;
+}
+label{
+	margin:10px;
+}
+
+
+
+.title_bar {
+    background: #001900;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.title_heading {
+    text-align: center;
+    color: white;
+    float: left;
+    width: 100%;
+    margin: 0;
+    display:inline;
+    text-decoration: none;
+}
+.logo img{
+    float: left;
+    display:inline;
+    text-align: left;
+    object-fit: cover;
+    height: auto;
+    max-width:100%;
+    max-height:100%;
+}
+.link_section a{
+    text-align: right;
+    color: white;
+    float: right;
+    margin: 0.1vw;
+    margin-left:1vw;
+    display:inline;
+    text-decoration: none;
+    display:block;
+    font-size:1vw;
+    height:6vw;
+}
+.mobile_menu_item {
+    display:block;
+    padding: 25px;
+    text-align:center;
+    font-size:3vw;
+}
+
+.columns-block {
+    width:100%;
+    display:table;
+    padding-bottom:60px;
+}
+
+.columns-block:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#title_bar_div{
+    position:sticky;
+    width:100%;
+    top:0;
+}
+
+#menu_div{
+    position:relative;
+    width:100%;
+}
+
+
+/*#### PC ####*/
+@media screen and (min-width: 1024px){
+    .title_bar {
+        height:6vh;
+    }
+    .desktop-only {
+        display:inline;
+    }
+    .mobile-only {
+        display:none;
+    }
+    .primary_div {
+        width: 80%;
+        margin: 0 auto;
+    }
+    .column-half-width {
+        float:left;
+        width: 50%;
+    }
+    .column-third-width {
+        float:left;
+        width: 33.333%;
+    }
+
+}
+
+/*#### Mobile ####*/
+@media screen and (min-width : 0px) and (max-width : 1023px){
+/*Style*/
+    h1, h2, h3 {
+        text-align:center;
+    }
+    .title_bar {
+        height:6vh;
+    }
+    .desktop-only {
+        display:none;
+    }
+    .mobile-only {
+        display:inline;
+    }
+
+    .primary_div {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .column-half-width {
+        float:inline;
+        width: 100%;
+        height:auto !important;
+    }
+
+    .column-third-width {
+        float:inline;
+        width: 100%;
+        height:auto !important;
+    }
+}
