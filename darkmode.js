@@ -10,19 +10,19 @@ if (darkCookie == "light"){
     dark = true;
     switchToDarkMode()
 }else {
-    document.cookie = "darkModePref=light; Secure";
+    document.cookie = "darkModePref=light;path=/; Secure";
 }
 
 
 function darkMode(){
 		if(dark){
             dark = false;
-            document.cookie = "darkModePref=light; Secure";
+            document.cookie = "darkModePref=light;path=/; Secure";
             switchToLightMode()
         }else {
             dark = true;
             switchToDarkMode()
-            document.cookie = "darkModePref=dark; Secure";
+            document.cookie = "darkModePref=dark;path=/; Secure";
         }
 	}
 
@@ -30,6 +30,7 @@ function getCookie(cname) {
     let name = cname + "=";
     let decodedCookie = decodeURIComponent(document.cookie);
     let ca = decodedCookie.split(';');
+    console.log(ca);
     for(let i = 0; i < ca.length; i++) {
         let c = ca[i];
         while (c.charAt(0) == ' ') {
@@ -45,7 +46,7 @@ function switchToDarkMode(){
     var element = document.createElement("link");
     element.setAttribute("rel", "stylesheet");
     element.setAttribute("type", "text/css");
-    element.setAttribute("href", "dark.css");
+    element.setAttribute("href", "/dark.css");
     document.getElementsByTagName("head")[0].appendChild(element);
 }
 
@@ -53,6 +54,6 @@ function switchToLightMode(){
     var element = document.createElement("link");
     element.setAttribute("rel", "stylesheet");
     element.setAttribute("type", "text/css");
-    element.setAttribute("href", "light.css");
+    element.setAttribute("href", "/light.css");
     document.getElementsByTagName("head")[0].appendChild(element);
 }

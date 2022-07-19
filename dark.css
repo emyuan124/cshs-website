@@ -30,10 +30,52 @@ label{
     font-family: "Source Code Pro", "Courier New", monospace;
 }
 
+input {
+	background-color: #052900;
+	border-color: #084700;
+}
+input, select, textarea{
+    color: #ffffff;
+}
+
+textarea {
+	background-color: #052900;
+	border-color: #084700;
+}
+
+code {
+	color: white;
+}
+
+.mobile_menu_item {
+	color:lime;
+}
+
 .title_bar {
     background: #001900;
 }
 
+.title_bar_title {
+    color:lime;
+}
+
 .primary_div {
     background:black;
+}
+
+.button {
+	background: #001900;
+}
+
+.button:hover {
+	background-color: #001200;
+}
+
+#menu_div {
+	background:rgba(0,0,0,0.75);
+}
+
+#hack-a-thon-banner {
+	background: url("/images/hack-a-thon-banner-dark-new.webp");
+	background-size: contain;
 }

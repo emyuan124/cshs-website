@@ -30,10 +30,51 @@ label{
     font-family: NonBreakingSpaceOverride, "Hoefler Text", Garamond, "Times New Roman", serif;
 }
 
+code {
+	color: darkgreen;
+}
+
+.mobile_menu_item {
+	color:green;
+}
+
+input {
+	background-color: #ffffff;
+	border-color: #e0e0e0;
+}
+input, select, textarea{
+    color: black;
+}
+
+textarea {
+	background-color: #ffffff;
+	border-color: #e0e0e0;
+}
+
 .title_bar {
     background: #355e3b;
 }
 
+.title_bar_title {
+    color:white;
+}
+
 .primary_div {
     background:#c3c3c3;
+}
+.button {
+	background-color: #355e3b;
+}
+
+.button:hover {
+	background-color: #2c5532;
+}
+
+#menu_div {
+	background:rgba(255,255,255,0.75);
+}
+
+#hack-a-thon-banner {
+	background: url("/images/hack-a-thon-banner-light-new.webp");
+	background-size: contain;
 }
