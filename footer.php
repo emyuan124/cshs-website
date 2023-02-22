@@ -1,26 +1,13 @@
-<!DOCTYPE html>
-<html>
-    <footer class="title_bar" style="min-height:100px;">
-    <a href= "https://www.instagram.com/fossilridge.cshs/">
-        <img src="/icons/instagram.png"
-            style="float:right; padding:15px;"
-            title="Check out our instagram!"
-            height="45px"
-            width="45px">
-    </a>
-
-    <img src="/icons/twitter.png"
-            style="float:right; padding:15px;"
-            title="Twitter page coming soon!"
-            height="45px"
-            width="45px">
-
-    <img src="/icons/facebook.ico"
-            style="float:right; padding:15px;"
-            title="Facebook page coming soon!"
-            height="45px"
-            width="45px">
-
-    </footer>
-
-</html>
+<footer class="footer footer-center p-10 bg-base-200 text-base-content rounded">
+    <div class="grid grid-cols-3 md:grid-flow-col gap-4 pb-4 border-b border-base-content">
+        <a class="link link-hover" href="index">Home</a> 
+        <a class="link link-hover" href="board">Meet The Board</a> 
+        <a class="link link-hover" href="cshs">CSHS</a> 
+        <a class="link link-hover" href="codingclub">Coding Club</a> 
+        <a class="link link-hover" href="404">Cybercats</a>
+        <a class="link link-hover" href="beardify">Beardify</a>
+    </div> 
+    <div>
+        <p>© 2022 Fossil Ridge Computer Science Honor Society</p>
+    </div>
+</footer>

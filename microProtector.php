@@ -39,7 +39,7 @@ function showForm($error="LOGIN"){
 <html>
 <head>
    <title>Micro Protector</title>
-   <?php include('titlebar.html'); ?>
+   <?php include($_SERVER['DOCUMENT_ROOT'].'/titlebar.php'); ?>
 </head>
 <body>
     <div id="main">
@@ -55,6 +55,8 @@ function showForm($error="LOGIN"){
         </table>  
       </form>
    </div>
+
+   <?php include($_SERVER['DOCUMENT_ROOT'].'/footer.php'); ?>
 </body>       
 
 <?php   
