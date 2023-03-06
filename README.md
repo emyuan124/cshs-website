@@ -16,3 +16,38 @@ The RewriteEngine is a module used in Apache web server to modify the URL of a w
 For example, an ugly URL like "https://frhs.tech/cshs.php" can be rewritten as "https://frhs.tech/cshs". This makes it easier for users to remember and share URLs.
 
 Installation varies widely by distro, but it is generally found in one of the apache config files as a module that you can enable by uncommenting it.
+
+## Style guide
+
+### Images
+
+Images should generally be in AVIF format with a backup PNG or JPEG for browsers that don't support AVIF. AVIF drastically reduces page load times (often by 2-4x). Here's an example of how this would look:
+
+```html
+<img src="img/cybercats.avif" onerror="this.src='img/cybercats.png'" alt="CyberCats Logo"  />
+```
+
+### Don't copy/paste the titlebar
+
+Please use PHP to include the titlebar in each page. This makes it so that the titlebar can be changed in one file and the entire site will update.
+
+#### Basic page outline
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>FRHS Tech</title>
+    <?php include $_SERVER["DOCUMENT_ROOT"].'/head.php'; ?>
+</head>
+<body data-theme="night">
+  <?php include $_SERVER["DOCUMENT_ROOT"].'/titlebar.php'; ?>
+  <div class="pt-[60px] flex flex-col justify-between min-h-screen">
+    <div class="text-center mt-12">
+        Content
+    </div>
+  </div>
+  <?php include $_SERVER["DOCUMENT_ROOT"].'/footer.php'; ?>
+</body>
+</html>
+```
