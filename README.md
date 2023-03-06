@@ -51,3 +51,17 @@ Please use PHP to include the titlebar in each page. This makes it so that the t
 </body>
 </html>
 ```
+
+## Contributing
+
+The preferred way to contribute a page or edit is through a github pull request. To do this, make your own fork and branch, add any changes, then click the button to send a pull request. See [this video](https://youtu.be/8lGpZkjnkt4) for a brief tutorial. If this doesn't work for you, or is too complicated, you may also email it to [cshs@frhs.tech](mailto:cshs@frhs.tech).
+
+## Programming pages
+
+We are currently trying to build a database of Fossil programming knowledge. If you would like to contribute, you can get hours equal to the amount of time you spend on pages, up to 4 hours for each page submitted. They can be on any programming topic of any level:
+* Variables
+* Functions
+* Inheritance vs composition
+* Garbage collection
+* Static vs Dynamic typed languages
+* Literally anything else
