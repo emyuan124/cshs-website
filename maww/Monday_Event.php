@@ -2,7 +2,7 @@
 <html lang = "en">
     <head>
         <title>Monday</title>
-        <link rel="icon" type="image/x-icon" href="Images/MAW_Star.jpg">
+        <link rel="icon" type="image/x-icon" href="Images/MAW_Star.avif" onerror="this.src='Images/MAW_Star.jpg'">
         <?php include $_SERVER["DOCUMENT_ROOT"].'/head.php'; ?>
         <!--The section below is for the fonts-->
         <style>

@@ -3,7 +3,7 @@
   <head>
     <?php include $_SERVER["DOCUMENT_ROOT"].'/head.php'; ?>
     
-    <link rel="icon" type="image/png" href="images/icon.png" />
+    <link rel="icon" type="image/png" href="images/icon.avif" onerror="this.src='images/icon.png'" />
     <title>Saturday</title>
   </head>
   <body class="font-[lato]">
@@ -27,7 +27,7 @@
     <div class="hero my-[50px] h-[400px]">
       <div class="hero-content flex-col lg:flex-row">
         <img
-          src="images/fresh-club.png"
+          src="images/fresh-club.avif" onerror="this.src='images/fresh-club.png'"
           alt="Fresh Club"
           class="max-w-sm rounded-lg shadow-2xl h-[300px]"
         />
@@ -44,7 +44,7 @@
     <div class="hero my-[50px] h-[400px]">
       <div class="hero-content flex-col lg:flex-row-reverse">
         <img
-          src="images/twin-silo-park.jpg"
+          src="images/twin-silo-park.avif" onerror="this.src='images/twin-silo-park.jpg'"
           alt="Twin Silo Park"
           class="max-w-sm rounded-lg shadow-2xl h-[300px]"
         />

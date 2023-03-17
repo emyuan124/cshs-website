@@ -2,7 +2,7 @@
 <html lang="en" data-theme="maw">
   <head>
     <?php include $_SERVER["DOCUMENT_ROOT"].'/head.php'; ?>
-    <link rel="icon" type="image/png" href="images/icon.png" />
+    <link rel="icon" type="image/png" href="images/icon.avif" onerror="this.src='images/icon.png'" />
     <title>Sunday</title>
   </head>
   <body class="font-[lato]">
@@ -24,7 +24,8 @@
     <div class="hero my-[50px] h-[400px]">
       <div class="hero-content flex-col lg:flex-row">
         <img
-          src="images/chippers-lanes.png"
+          src="images/chippers-lanes.avif" 
+          onerror="this.src='images/chippers-lanes.png'"
           alt="Chipper's Lanes"
           class="max-w-sm rounded-lg shadow-2xl"
         />
