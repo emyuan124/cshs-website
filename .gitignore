@@ -1,4 +1,5 @@
 .htaccess
 /microProtector.php
 game/
-
+.idea/
+.vscode/
