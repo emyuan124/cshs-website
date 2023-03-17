@@ -4,6 +4,20 @@
       <a href="/cshs"><div class="p-5 border-b border-base-content">CSHS</div></a>
       <a href="/codingclub"><div class="p-5 border-b border-base-content">Coding Club</div></a>
       <a href="/404"><div class="p-5 border-b border-base-content" >CyberCats</div></a>
+      <ul class="menu p-3 border-b border-base-content">
+        <li tabindex="0">
+          <span><a class="ml-3">MAAW</a></span>
+          <ul class="rounded-box bg-base-100">
+            <li><a href="/maww/">About</a></li>
+            <li><a href="/maww/Avery_Page">Meet Avery</a></li>
+            <li><a href="/maww/foodtrucks">Food Trucks</a></li>
+            <li><a href="/maww/Monday_Event">Monday's Event</a></li>
+            <li><a href="/maww/Tuesday_Event">Tuesday's Event</a></li>
+            <li><a href="/maww/saturday">Saturday's Event</a></li>
+            <li><a href="/maww/sunday">Sunday's Event</a></li>
+          </ul>
+        </li>
+      </ul>
       <div class="p-5">
         <label class="swap swap-rotate px-3">
           <input id="theme_switch" type="checkbox" onchange="changeTheme(this)"/>

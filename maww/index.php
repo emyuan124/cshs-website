@@ -44,7 +44,7 @@
       </div>
     </div>
 
-    <div class="hero my-[50px] h-[400px]">
+    <div class="hero my-[100px]">
       <div class="hero-content flex-col lg:flex-row-reverse">
         <img
           src="images/avery.jpg"
@@ -64,14 +64,6 @@
         </div>
       </div>
     </div>
-
-    <footer class="footer footer-center p-4 mt-8 bg-[#75787B] text-base-content">
-      <div>
-        <p class="text-white">
-          This site was made for Make-A-Wish Week at Fossil Ridge High School.
-        </p>
-      </div>
-    </footer>
     <?php include $_SERVER["DOCUMENT_ROOT"].'/footer.php'; ?>
   </body>
 </html>
