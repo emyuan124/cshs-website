@@ -16,3 +16,52 @@ The RewriteEngine is a module used in Apache web server to modify the URL of a w
 For example, an ugly URL like "https://frhs.tech/cshs.php" can be rewritten as "https://frhs.tech/cshs". This makes it easier for users to remember and share URLs.
 
 Installation varies widely by distro, but it is generally found in one of the apache config files as a module that you can enable by uncommenting it.
+
+## Style guide
+
+### Images
+
+Images should generally be in AVIF format with a backup PNG or JPEG for browsers that don't support AVIF. AVIF drastically reduces page load times (often by 2-4x). Here's an example of how this would look:
+
+```html
+<img src="img/cybercats.avif" onerror="this.src='img/cybercats.png'" alt="CyberCats Logo"  />
+```
+
+### Don't copy/paste the titlebar
+
+Please use PHP to include the titlebar in each page. This makes it so that the titlebar can be changed in one file and the entire site will update.
+
+#### Basic page outline
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>FRHS Tech</title>
+    <?php include $_SERVER["DOCUMENT_ROOT"].'/head.php'; ?>
+</head>
+<body data-theme="night">
+  <?php include $_SERVER["DOCUMENT_ROOT"].'/titlebar.php'; ?>
+  <div class="pt-[60px] flex flex-col justify-between min-h-screen">
+    <div class="text-center mt-12">
+        Content
+    </div>
+  </div>
+  <?php include $_SERVER["DOCUMENT_ROOT"].'/footer.php'; ?>
+</body>
+</html>
+```
+
+## Contributing
+
+The preferred way to contribute a page or edit is through a github pull request. To do this, make your own fork and branch, add any changes, then click the button to send a pull request. See [this video](https://youtu.be/8lGpZkjnkt4) for a brief tutorial. If this doesn't work for you, or is too complicated, you may also email it to [cshs@frhs.tech](mailto:cshs@frhs.tech).
+
+## Programming pages
+
+We are currently trying to build a database of Fossil programming knowledge. If you would like to contribute, you can get hours equal to the amount of time you spend on pages, up to 4 hours for each page submitted. They can be on any programming topic of any level:
+* Variables
+* Functions
+* Inheritance vs composition
+* Garbage collection
+* Static vs Dynamic typed languages
+* Literally anything else

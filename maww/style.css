@@ -1,0 +1,41 @@
+[data-theme="maw"] {
+  /* primary */
+  --p: 212 100% 36%;
+  --pf: 178 100% 36%;
+
+  /* secondary */
+  --s: 178 100% 36%;
+
+  /* accent */
+  --a: 201 66% 73%;
+
+  /* info */
+  --in: 198 93% 60%;
+
+  /* success */
+  --su: 158 64% 52%;
+
+  /* warning */
+  --wa: 43 96% 56%;
+
+  /* error */
+  --er: 0 91% 71%;
+
+  /* neutral */
+  --n: 218 18% 12%;
+
+  /* base 100 */
+  --b1: 0 0% 100%;
+
+  /* other settings */
+  --rounded-box: 1rem;
+  --rounded-btn: 0.25rem;
+  --rounded-badge: 1.9rem;
+  --animation-btn: 0.25s;
+  --animation-input: 0.2s;
+  --btn-text-case: capitalize;
+  --btn-focus-scale: 0.95;
+  --border-btn: 1px;
+  --tab-border: 1px;
+  --tab-radius: 0.5rem;
+}
