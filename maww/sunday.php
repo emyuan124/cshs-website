@@ -1,42 +1,39 @@
 <!DOCTYPE html>
-<html lang="en" data-theme="maw">
+<html lang="en">
   <head>
     <?php include $_SERVER["DOCUMENT_ROOT"].'/head.php'; ?>
     <link rel="icon" type="image/png" href="images/icon.avif" onerror="this.src='images/icon.png'" />
     <title>Sunday</title>
   </head>
-  <body class="font-[lato]">
+  <body class="text-center lg:text-left">
     <?php include $_SERVER["DOCUMENT_ROOT"].'/titlebar.php'; ?>
 
-    <div
-      class="hero h-[600px]"
-      style="background-image: url(images/bowling.jpg)"
-    >
-      <div class="hero-overlay bg-opacity-60"></div>
-      <div class="hero-content text-center text-neutral-content">
-        <div class="max-w-md">
-          <h1 class="mb-5 text-5xl font-bold text-white">Sunday, April 2nd</h1>
-          <p class="mb-5 text-xl text-white">Bowling Night</p>
-        </div>
+  <div class="hero h-[450px] pt-[60px]" style="background-image: url(images/bowling.jpg);">
+    <div class="hero-overlay bg-opacity-50"></div>
+    <div class="hero-content text-center text-white">
+      <div>
+        <h1 class="mb-5 text-5xl font-bold">Sunday, April 2nd</h1>
+        <p class="mb-5 text-2xl">Bowling Night</p>
       </div>
     </div>
+  </div>
 
-    <div class="hero my-[100px]">
-      <div class="hero-content flex-col lg:flex-row">
+    <div class="hero py-12 lg:py-32 bg-base-100">
+      <div class="hero-content flex-col lg:flex-row-reverse gap-6 lg:gap-24">
         <img
-          src="images/chippers-lanes.avif" 
-          onerror="this.src='images/chippers-lanes.png'"
+          src="images/chippers-lanes.avif" onerror="this.src='images/chippers-lanes.jpg'"
           alt="Chipper's Lanes"
-          class="max-w-sm rounded-lg shadow-2xl"
+          class="max-md:w-[90%] max-w-sm rounded-lg shadow-2xl"
         />
-        <div class="pl-24">
-          <h1 class="text-5xl font-bold text-secondary">What Is It?</h1>
-          <p class="py-6 text-[#75787B]">
+        <div>
+          <h1 class="text-5xl font-bold">What Is It?</h1>
+          <p class="py-6">
             Visit Chipper's Lanes for a fun night of bowling and fundraising!
           </p>
         </div>
       </div>
     </div>
+
     <?php include $_SERVER["DOCUMENT_ROOT"].'/footer.php'; ?>
   </body>
 </html>

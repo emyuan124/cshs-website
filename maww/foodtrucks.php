@@ -4,7 +4,7 @@
     <title>Food Trucks</title>
     <?php include $_SERVER["DOCUMENT_ROOT"].'/head.php'; ?>
 </head>
-<body data-theme="night">
+<body data-theme="night" class="text-center lg:text-left">
   <?php include $_SERVER["DOCUMENT_ROOT"].'/titlebar.php'; ?>
   <div class="pt-[60px] px-10 flex flex-wrap justify-center gap-10 pb-10">
     <div class="card lg:card-side bg-base-200 shadow-xl p-2 w-[600px] 2xl:w-2/5 mt-10">

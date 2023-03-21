@@ -4,13 +4,8 @@
         <title>Monday</title>
         <link rel="icon" type="image/x-icon" href="Images/MAW_Star.avif" onerror="this.src='Images/MAW_Star.jpg'">
         <?php include $_SERVER["DOCUMENT_ROOT"].'/head.php'; ?>
-        <!--The section below is for the fonts-->
-        <style>
-            @font-face { font-family: Lato; src: url('Lato-Black.TTF'); }            
-            @font-face { font-family: Droid; src: url('DroidSerif-Regular.TTF'); } 
-        </style>
     </head>
-    <body data-theme="night">
+    <body data-theme="night" class="text-center lg:text-left">
         <?php include $_SERVER["DOCUMENT_ROOT"].'/titlebar.php'; ?>
         <div class="pt-[60px] flex flex-col justify-between min-h-screen">
         <!--Overview image-->

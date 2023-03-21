@@ -3,15 +3,9 @@
     <head>
         <title>Tuesday</title>
         <link rel="icon" type="image/x-icon" href="Images/MAW_Star.avif" onerror="this.src='Images/MAW_Star.jpg'">
-        <link href="https://cdn.jsdelivr.net/npm/daisyui@2.42.1/dist/full.css" rel="stylesheet" type="text/css" />
         <?php include $_SERVER["DOCUMENT_ROOT"].'/head.php'; ?>
-        <!--The section below is for the fonts-->
-        <style>
-            @font-face { font-family: Lato; src: url('Lato-Black.TTF'); }            
-            @font-face { font-family: Droid; src: url('DroidSerif-Regular.TTF'); } 
-        </style>
     </head>
-    <body>
+    <body class="text-center lg:text-left">
         <?php include $_SERVER["DOCUMENT_ROOT"].'/titlebar.php'; ?>
         <div class="pt-[60px] flex flex-col justify-between min-h-screen">
             <!--Overview image-->

@@ -16,7 +16,7 @@
             }
         </style>
     </head>
-        <body>
+        <body class="text-center lg:text-left">
             <?php include $_SERVER["DOCUMENT_ROOT"].'/titlebar.php'; ?>
             <div class="pt-[60px] flex flex-col justify-between min-h-screen">
             
