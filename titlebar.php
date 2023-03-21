@@ -11,10 +11,10 @@
             <li><a href="/maww/">About</a></li>
             <li><a href="/maww/Avery_Page">Meet Avery</a></li>
             <li><a href="/maww/foodtrucks">Food Trucks</a></li>
-            <li><a href="/maww/Monday_Event">Monday's Event</a></li>
-            <li><a href="/maww/Tuesday_Event">Tuesday's Event</a></li>
             <li><a href="/maww/saturday">Saturday's Event</a></li>
             <li><a href="/maww/sunday">Sunday's Event</a></li>
+            <li><a href="/maww/Monday_Event">Monday's Event</a></li>
+            <li><a href="/maww/Tuesday_Event">Tuesday's Event</a></li>
           </ul>
         </li>
       </ul>
@@ -54,10 +54,10 @@
           <ul class="p-2 bg-base-100 z-10">
             <li><a class="rounded-lg" href="/maww/Avery_Page">Meet Avery</a></li>
             <li><a class="rounded-lg" href="/maww/foodtrucks">Food Trucks</a></li>
-            <li><a class="rounded-lg" href="/maww/Monday_Event">Monday's Event</a></li>
-            <li><a class="rounded-lg" href="/maww/Tuesday_Event">Tuesday's Event</a></li>
             <li><a class="rounded-lg" href="/maww/saturday">Saturday's Event</a></li>
             <li><a class="rounded-lg" href="/maww/sunday">Sunday's Event</a></li>
+            <li><a class="rounded-lg" href="/maww/Monday_Event">Monday's Event</a></li>
+            <li><a class="rounded-lg" href="/maww/Tuesday_Event">Tuesday's Event</a></li>
           </ul>
         </li>
         <label class="swap swap-rotate px-3">
