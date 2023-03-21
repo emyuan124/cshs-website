@@ -18,6 +18,82 @@
       </div>
     </div>
 
+    <h1 class="bg-base-100 pb-4 pt-7 md:pt-14 text-4xl font-bold text-center">Events Summary</h1>
+    <div class="p-5 md:pb-14 bg-base-100 flex justify-center items-center shadow-xl">
+      <div class="flex flex-col justify-center w-[700px] bg-base-200 p-5 gap-5 rounded-2xl">
+        <div class="bg-base-100 flex flex-col md:flex-row md:justify-between gap-2 md:gap-4 px-2 md:px-6 py-3 rounded-full shadow-lg">
+          <div class="flex justify-center items-center gap-1">
+            <img class="mask mask-squircle w-8 h-8 md:h-12 md:w-12 object-cover" src="images/dog-walking.webp" />
+            <span class="text-md md:text-lg font-semibold ml-1 md:ml-2">April 1st | </span> 
+            <span class="text-sm md:text-md">Walk-A-Dog-A-Thon</span>
+          </div>
+          <div class="flex justify-center items-center">
+            <a href="/maww/saturday"><button class="btn btn-xs md:btn-sm btn-outline">View</button></a>
+          </div>
+        </div>
+        <div class="bg-base-100 flex flex-col md:flex-row md:justify-between gap-2 md:gap-4 px-2 md:px-6 py-3 rounded-full shadow-lg">
+          <div class="flex justify-center items-center gap-1">
+            <img class="mask mask-squircle w-8 h-8 md:h-12 md:w-12 object-cover" src="images/bowling.jpg" />
+            <span class="text-md md:text-lg font-semibold ml-1 md:ml-2">April 2nd | </span> 
+            <span class="text-sm md:text-md">Bowling Night</span>
+          </div>
+          <div class="flex justify-center items-center">
+            <a href="/maww/sunday"><button class="btn btn-xs md:btn-sm btn-outline">View</button></a>
+          </div>
+        </div>
+        <div class="bg-base-100 flex flex-col md:flex-row md:justify-between gap-2 md:gap-4 px-2 md:px-6 py-3 rounded-full shadow-lg">
+          <div class="flex justify-center items-center gap-1">
+            <img class="mask mask-squircle w-8 h-8 md:h-12 md:w-12 object-cover" src="images/gaming.jpg" />
+            <span class="text-md md:text-lg font-semibold ml-1 md:ml-2">April 3rd | </span> 
+            <span class="text-sm md:text-md">Game Night</span>
+          </div>
+          <div class="flex justify-center items-center">
+            <a href="/maww/Monday_Event"><button class="btn btn-xs md:btn-sm btn-outline">View</button></a>
+          </div>
+        </div>
+        <div class="bg-base-100 flex flex-col md:flex-row md:justify-between gap-2 md:gap-4 px-2 md:px-6 py-3 rounded-full shadow-lg">
+          <div class="flex justify-center items-center gap-1">
+            <img class="mask mask-squircle w-8 h-8 md:h-12 md:w-12 object-cover" src="images/dodgeball-crop.webp" />
+            <span class="text-md md:text-lg font-semibold ml-1 md:ml-2">April 4th | </span> 
+            <span class="text-sm md:text-md">Dodgeball Tourunament</span>
+          </div>
+          <div class="flex justify-center items-center">
+            <a href="/maww/Tuesday_Event"><button class="btn btn-xs md:btn-sm btn-outline">View</button></a>
+          </div>
+        </div>
+        <div class="bg-base-100 flex flex-col md:flex-row md:justify-between gap-2 md:gap-4 px-2 md:px-6 py-3 rounded-full shadow-lg">
+          <div class="flex justify-center items-center gap-1">
+            <img class="mask mask-squircle w-8 h-8 md:h-12 md:w-12 object-cover" src="images/wednesday-popcorn.jpg" />
+            <span class="text-md md:text-lg font-semibold ml-1 md:ml-2">April 5th | </span> 
+            <span class="text-sm md:text-md">Movie Night</span>
+          </div>
+          <div class="flex justify-center items-center">
+            <a href="/maww/wednesday"><button class="btn btn-xs md:btn-sm btn-outline">View</button></a>
+          </div>
+        </div>
+        <div class="bg-base-100 flex flex-col md:flex-row md:justify-between gap-2 md:gap-4 px-2 md:px-6 py-3 rounded-full shadow-lg">
+          <div class="flex justify-center items-center gap-1">
+            <img class="mask mask-squircle w-8 h-8 md:h-12 md:w-12 object-cover" src="images/thursday-cornhole.jpg" />
+            <span class="text-md md:text-lg font-semibold ml-1 md:ml-2">April 6th | </span> 
+            <span class="text-sm md:text-md">Cornhole Tournament</span>
+          </div>
+          <div class="flex justify-center items-center">
+            <a href="/maww/thursday"><button class="btn btn-xs md:btn-sm btn-outline">View</button></a>
+          </div>
+        </div>
+        <div class="bg-base-100 flex flex-col md:flex-row md:justify-between gap-2 md:gap-4 px-2 md:px-6 py-3 rounded-full shadow-lg">
+          <div class="flex justify-center items-center gap-1">
+            <img class="mask mask-squircle w-8 h-8 md:h-12 md:w-12 object-cover" src="images/friday-banner.jpg" />
+            <span class="text-md md:text-lg font-semibold ml-1 md:ml-2">April 7th | </span> 
+            <span class="text-sm md:text-md">Trivia Night & Foodtrucks</span>
+          </div>
+          <div class="flex justify-center items-center">
+            <a href="/maww/friday"><button class="btn btn-xs md:btn-sm btn-outline">View</button></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <div class="hero py-12 lg:py-32 bg-base-200">
       <div class="hero-content flex-col lg:flex-row gap-6 lg:gap-24">
         <img
@@ -56,7 +132,6 @@
         </div>
       </div>
     </div>
-    
     <?php include $_SERVER["DOCUMENT_ROOT"].'/footer.php'; ?>
   </body>
 </html>

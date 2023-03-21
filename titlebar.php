@@ -1,26 +1,10 @@
   <div class="hidden text-center  fixed flex justify-center items-center z-20 top-0 left-0 w-3/4 h-screen bg-base-300" id="sidebar">
     <div class="text-xl font-semibold">
-      <a href="/beardify"><div class="p-5 border-b border-base-content">Beardify</div></a>
+      <!-- <a href="/beardify"><div class="p-5 border-b border-base-content">Beardify</div></a> -->
+      <a href="/maww/"><div class="p-5 border-b border-base-content">MAWW</div></a>
       <a href="/cshs"><div class="p-5 border-b border-base-content">CSHS</div></a>
       <a href="/codingclub"><div class="p-5 border-b border-base-content">Coding Club</div></a>
       <a href="/404"><div class="p-5 border-b border-base-content" >CyberCats</div></a>
-      <ul class="menu p-3 border-b border-base-content">
-        <li tabindex="0">
-          <span><a class="ml-3">MAAW</a></span>
-          <ul class="rounded-box bg-base-100">
-            <li><a href="/maww/">About</a></li>
-            <li><a href="/maww/Avery_Page">Meet Avery</a></li>
-            <li><a href="/maww/foodtrucks">Food Trucks</a></li>
-            <li><a href="/maww/saturday">Saturday's Event</a></li>
-            <li><a href="/maww/sunday">Sunday's Event</a></li>
-            <li><a href="/maww/Monday_Event">Monday's Event</a></li>
-            <li><a href="/maww/Tuesday_Event">Tuesday's Event</a></li>
-            <li><a href="/maww/wednesday">Wednesday's Event</a></li>
-            <li><a href="/maww/thursday">Thursday's Event</a></li>
-            <li><a href="/maww/friday">Friday's Event</a></li>
-          </ul>
-        </li>
-      </ul>
       <div class="p-5">
         <label class="swap swap-rotate px-3">
           <input id="theme_switch" type="checkbox" onchange="changeTheme(this)"/>
@@ -37,7 +21,8 @@
     </div>
     <div class="flex-none hidden md:flex">
       <ul class="menu menu-horizontal p-0">
-        <li><a class="rounded-lg" href="/beardify.php">Beardify</a></li>
+        <!-- <li><a class="rounded-lg" href="/beardify.php">Beardify</a></li> -->
+        <li><a class="rounded-lg" href="/maww/">MAWW</a></li>
         <li tabindex="0" class="rounded-lg">
           <a class="rounded-lg">
             Clubs
@@ -47,23 +32,6 @@
             <li><a class="rounded-lg" href="/cshs">CSHS</a></li>
             <li><a class="rounded-lg" href="/codingclub">Coding Club</a></li>
             <li><a class="rounded-lg" href="/cybercats">Cybercats</a></li>
-          </ul>
-        </li>
-        <li tabindex="0" class="rounded-lg">
-          <a class="rounded-lg" href="/maww/">
-            MAWW
-            <svg class="fill-current" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z"/></svg>
-          </a>
-          <ul class="p-2 bg-base-100 z-10">
-            <li><a href="/maww/Avery_Page">Meet Avery</a></li>
-            <li><a href="/maww/foodtrucks">Food Trucks</a></li>
-            <li><a href="/maww/saturday">Saturday's Event</a></li>
-            <li><a href="/maww/sunday">Sunday's Event</a></li>
-            <li><a href="/maww/Monday_Event">Monday's Event</a></li>
-            <li><a href="/maww/Tuesday_Event">Tuesday's Event</a></li>
-            <li><a href="/maww/wednesday">Wednesday's Event</a></li>
-            <li><a href="/maww/thursday">Thursday's Event</a></li>
-            <li><a href="/maww/friday">Friday's Event</a></li>
           </ul>
         </li>
         <label class="swap swap-rotate px-3">
