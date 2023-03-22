@@ -24,15 +24,15 @@
                 </div>
             </div>    
         <hr>
-              <p style="padding:3%;font-size: 300%; color: white; font-family:Lato; background-color: #00BAB3;text-align: center;">Spirit Day: Night in VS Night out (Cozy v.s. Fancy!)</p>
+              <p style="padding:3%;font-size: 300%; color: white; font-family:Lato; background-color: #00BAB3;text-align: center;">Spirit Day: Night in VS Night out (Cozy vs. Fancy!)</p>
             <hr>
             <p style="padding:3%;font-size: 300%; color: white; font-family:Lato; background-color: #75787B;text-align: center;">Dodgeball Tournament! 6-8 & 7-9 PM</p>
             <hr>
-            <p style="font-family: Droid; font-size: 150%;text-align: center; padding: 1.5%">Come to the fossil ridge gym to partcipate in an exiting dogeball tournament Sign up through the NHS website!</p>
+            <p style="font-family: Droid; font-size: 150%;text-align: center; padding: 1.5%">Come to the fossil ridge gym to partcipate in an exiting dogeball tournament. Sign up through the NHS website!</p>
             <hr>
             <p style="padding:3%;font-size: 300%; color: white; font-family:Lato; background-color: #75787B;text-align: center;">Restaurant Night at BJs! 4-8pm</p>
             <hr>
-            <p style="font-family: Droid; font-size: 150%;text-align: center; padding: 1.5%">Come to BJ's for a fun night of food and fundraising! Bring a digital or physical flyer to donate your proceeds to make-a-wish colorado!</p>
+            <p style="font-family: Droid; font-size: 150%;text-align: center; padding: 1.5%">Come to BJ's for a fun night of food and fundraising! Bring a digital or physical flyer to donate your proceeds to Make-A-Wish Colorado!</p>
         </div>
         <?php include $_SERVER["DOCUMENT_ROOT"].'/footer.php'; ?>
         </body>

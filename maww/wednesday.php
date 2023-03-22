@@ -23,8 +23,8 @@
           <h1 class="text-5xl font-bold">Spirit Day: Twins</h1>
           <p class="pt-7 text-lg"><strong>Movie Night <span class="badge badge-secondary ml-2">7 PM</span></strong></p>
           <p>Watch a fun movie for a cause! Hostsed by NEHS at Fossil.</p>
-          <p class="pt-6 text-lg"><strong>Candy Gram Signups <span class="badge badge-secondary ml-2">$3 on schoolpay</span></strong></p>
-          <p>Go on schoolpay to purchase a candy gram for a special someone</p>
+          <p class="pt-6 text-lg"><strong>Candy Gram Signups <span class="badge badge-secondary ml-2">$3 on SchoolPay</span></strong></p>
+          <p><u><a href="https://schoolpay.com">Go on SchoolPay</a></u> to purchase a candy gram for a special someone</p>
           <p>Visit the commons during lunch to sign up!</p>
         </div>
       </div>

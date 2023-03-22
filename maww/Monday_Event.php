@@ -28,13 +28,14 @@
             <hr>
             <p style="padding:3%;font-size: 300%; color: white; font-family:Lato; background-color: #00BAB3;text-align: center;">Anything but a Backpack Day!</p>
             <hr>
-            <p style="padding:3%;font-size: 300%; color: white; font-family:Lato; background-color: #75787B;text-align: center;">Game Night! 5:30-9pm </p>
+            <p style="padding:3%;font-size: 300%; color: white; font-family:Lato; background-color: #75787B;text-align: center;">Game Night! 4:30 PM-7:30 PM</p>
             <hr>
-            <p style="font-family: Droid; font-size: 150%;text-align: center; padding: 1.5%">Come to the FRHS media center for a fungame night hosted by Computer Science Honor Society, Rho Kappa, and Games and Simulations Society!</p>
+            <p style="font-family: Droid; font-size: 150%;text-align: center; padding: 1.5%">Come to the FRHS media center for a fun game night hosted by Computer Science Honor Society, Rho Kappa, and Games and Simulations Society!</p>
+            <p style="font-family: Droid; font-size: 150%;text-align: center; padding: 1.5%">There will be board and video games, prizes, concessions, and minigame events! There is a $5 entry fee; come support MAW and have some fun!</p>
             <hr>
             <p style="padding:3%;font-size: 300%; color: white; font-family:Lato; background-color: #75787B;text-align: center;">Restaurant Night at Panera! 4-8pm</p>
             <hr>
-            <p style="font-family: Droid; font-size: 150%;text-align: center; padding: 1.5%">Come to Panera for a fun night of food band fundraising! Bring a digital or physical flyer to donate your proceeds to make-a-wish colorado!</p>
+            <p style="font-family: Droid; font-size: 150%;text-align: center; padding: 1.5%">Come to Panera for a fun night of food band fundraising! Bring a digital or physical flyer to donate your proceeds to Make-A-Wish Colorado!</p>
         </div>
         <?php include $_SERVER["DOCUMENT_ROOT"].'/footer.php'; ?>
     </body>
