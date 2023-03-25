@@ -28,7 +28,7 @@
             <span class="text-sm md:text-md">Walk-A-Dog-A-Thon & Bowling Night</span>
           </div>
           <div class="flex justify-center items-center">
-            <a href="/maww/saturday"><button class="btn btn-xs md:btn-sm btn-outline">View</button></a>
+            <a href="/maww/sunday"><button class="btn btn-xs md:btn-sm btn-outline">View</button></a>
           </div>
         </div>
         <div class="bg-base-100 flex flex-col md:flex-row md:justify-between gap-2 md:gap-4 px-2 md:px-6 py-3 rounded-2xl md:rounded-full shadow-lg">
@@ -38,7 +38,7 @@
             <span class="text-sm md:text-md">Game Night & Resturant Night at Panera</span>
           </div>
           <div class="flex justify-center items-center">
-            <a href="/maww/sunday"><button class="btn btn-xs md:btn-sm btn-outline">View</button></a>
+            <a href="/maww/monday"><button class="btn btn-xs md:btn-sm btn-outline">View</button></a>
           </div>
         </div>
         <div class="bg-base-100 flex flex-col md:flex-row md:justify-between gap-2 md:gap-4 px-2 md:px-6 py-3 rounded-2xl md:rounded-full shadow-lg">
@@ -48,7 +48,7 @@
             <span class="text-sm md:text-md">Dodgeball Tournament & Resturant Night at BJ's</span>
           </div>
           <div class="flex justify-center items-center">
-            <a href="/maww/Monday_Event"><button class="btn btn-xs md:btn-sm btn-outline">View</button></a>
+            <a href="/maww/tuesday"><button class="btn btn-xs md:btn-sm btn-outline">View</button></a>
           </div>
         </div>
         <div class="bg-base-100 flex flex-col md:flex-row md:justify-between gap-2 md:gap-4 px-2 md:px-6 py-3 rounded-2xl md:rounded-full shadow-lg">
@@ -58,7 +58,7 @@
             <span class="text-sm md:text-md">Last chance for Candy Grams</span>
           </div>
           <div class="flex justify-center items-center">
-            <a href="/maww/Tuesday_Event"><button class="btn btn-xs md:btn-sm btn-outline">View</button></a>
+            <a href="/maww/wednesday"><button class="btn btn-xs md:btn-sm btn-outline">View</button></a>
           </div>
         </div>
         <div class="bg-base-100 flex flex-col md:flex-row md:justify-between gap-2 md:gap-4 px-2 md:px-6 py-3 rounded-2xl md:rounded-full shadow-lg">
@@ -68,7 +68,7 @@
             <span class="text-sm md:text-md">Checkout Teacher Dares</span>
           </div>
           <div class="flex justify-center items-center">
-            <a href="/maww/wednesday"><button class="btn btn-xs md:btn-sm btn-outline">View</button></a>
+            <a href="/maww/thursday"><button class="btn btn-xs md:btn-sm btn-outline">View</button></a>
           </div>
         </div>
         <div class="bg-base-100 flex flex-col md:flex-row md:justify-between gap-2 md:gap-4 px-2 md:px-6 py-3 rounded-2xl md:rounded-full shadow-lg">
@@ -78,7 +78,7 @@
             <span class="text-sm md:text-md">Trivia Night & Foodtruck Rally</span>
           </div>
           <div class="flex justify-center items-center">
-            <a href="/maww/thursday"><button class="btn btn-xs md:btn-sm btn-outline">View</button></a>
+            <a href="/maww/friday"><button class="btn btn-xs md:btn-sm btn-outline">View</button></a>
           </div>
         </div>
         <div class="bg-base-100 flex flex-col md:flex-row md:justify-between gap-2 md:gap-4 px-2 md:px-6 py-3 rounded-2xl md:rounded-full shadow-lg">
@@ -88,7 +88,7 @@
             <span class="text-sm md:text-md">Movie Night & Cornhole Tournament</span>
           </div>
           <div class="flex justify-center items-center">
-            <a href="/maww/friday"><button class="btn btn-xs md:btn-sm btn-outline">View</button></a>
+            <a href="/maww/movienight_cornhole"><button class="btn btn-xs md:btn-sm btn-outline">View</button></a>
           </div>
         </div>
       </div>
