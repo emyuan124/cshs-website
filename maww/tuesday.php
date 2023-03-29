@@ -29,10 +29,12 @@
           <h1 class="text-5xl font-bold pb-6">Spirit Day: Night In vs Night Out</h1>
           <hr/>
           <h3 class="text-3xl font-bold mt-6">Dodgeball Tournament</h3>
-          <p class="pt-1 text-lg font-bold flex gap-2 items-center">
-            In the Fossil Gym <span class="badge badge-secondary font-bold">6 - 8 PM</span>
+          <p class="pt-1 text-lg font-bold">
+            In the Fossil Gym 
           </p>
+          <p><span class="my-2 badge badge-secondary font-bold">6 - 8 PM</span></p>
           <p>Come to the fossil ridge gym to partcipate in an exiting dogeball tournament. Sign up through the NHS website!</p>
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSeu5TWFlQST4o9ze9gg9ayhXvEmk_6uIFfUcHfYRnVGule9yw/viewform" target="_blank"><div class="btn btn-primary mt-2 font-bold">Sign-Up</div></a> 
         </div>
       </div>
     </div>
@@ -46,7 +48,8 @@
         />
         <div>
           <h1 class="text-5xl font-bold">BJ's Night</h1>
-          <p class="pt-6"><span class="badge badge-secondary font-bold mr-1">4 - 8 PM</span> Come to BJ's for a fun night of food and fundraising! Bring a digital or physical flyer to donate your proceeds to Make-A-Wish Colorado!</p>
+          <p><span class="my-3 badge badge-secondary font-bold mr-1">4 - 8 PM</span></p>
+          <p>Come to BJ's for a fun night of food and fundraising! Bring a digital or physical flyer to donate your proceeds to Make-A-Wish Colorado!</p>
         </div>
       </div>
     </div>

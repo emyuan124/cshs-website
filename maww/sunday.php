@@ -48,6 +48,7 @@
           <h1 class="text-5xl font-bold">Bowling Night</h1>
           <p class="pt-6 text-lg">
             Visit Chipper's Lanes for a fun night of bowling and fundraising!
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSf6BN-oTdROOQn8bEp7n3ZMKFe-dOuItPCUzTzHySKnNhTpdQ/viewform" target="_blank"><div class="btn btn-primary mt-3">Sign-Up</div></a>
           </p>
         </div>
       </div>

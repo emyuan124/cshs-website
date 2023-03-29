@@ -14,7 +14,7 @@
       </div>
     </div>
   </div>
-  <div class="fixed z-10 navbar bg-base-200 shadow-xl" id="nav">
+  <div class="fixed z-20 navbar bg-base-200 shadow-xl" id="nav">
     <div class="flex-1">
       <a class="btn btn-ghost normal-case text-2xl" href="/index">
         <img src="/img/logo.avif" onerror="this.src='/img/logo.png'" class="w-10 mr-2">FRHS CS</a>
@@ -28,7 +28,7 @@
             Clubs
             <svg class="fill-current" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z"/></svg>
           </a>
-          <ul class="p-2 bg-base-100 z-10">
+          <ul class="p-2 bg-base-100 z-20">
             <li><a class="rounded-lg" href="/cshs">CSHS</a></li>
             <li><a class="rounded-lg" href="/codingclub">Coding Club</a></li>
             <li><a class="rounded-lg" href="/cybercats">Cybercats</a></li>

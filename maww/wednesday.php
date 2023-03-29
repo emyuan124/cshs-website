@@ -29,9 +29,10 @@
           <h1 class="text-5xl font-bold pb-6">Spirit Day: Twin Day</h1>
           <hr/>
           <h3 class="text-3xl font-bold mt-6">Candy Grams</h3>
-          <p class="pt-1 text-lg font-bold flex gap-2 items-center">
-            Last day to signup! <span class="badge badge-secondary font-bold">$3 on schoolpay</span>
+          <p class="pt-1 text-lg font-bold">
+            Last day to signup!
           </p>
+          <p><span class="my-2 badge badge-secondary font-bold">$3 on schoolpay</span></p>
           <p>Purchase a candy gram for a special someone. Visit the commons during lunch to sign up!</p>
         </div>
       </div>

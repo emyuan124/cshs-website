@@ -21,7 +21,8 @@
         <img src="images/movienight.jpg" class="max-md:w-[90%] max-w-sm rounded-lg shadow-2xl" />
         <div>
           <h1 class="text-5xl font-bold">Movie Night</h1>
-          <p class="pt-7 text-xl font-bold">Hosted at Timberline Cinemark <span class="badge badge-secondary ml-2">7 PM</span></p>
+          <p class="pt-7 text-xl font-bold">Hosted at Timberline Cinemark</p>
+          <p><span class="badge badge-secondary my-2 font-bold">7 PM</span></p>
           <p>Come see Despicable Me as a special FRHS Make-A-Wish week fundraiser! Hosted by NEHS</p>
           <p>Location: <i>Cinemark 16 theatre located at 4721 S Timberline Rd, Fort Collins, CO 80528</i></p>
           <p><strong>Tickets are on schoopay for $5</strong></p>
@@ -34,7 +35,8 @@
         <img src="images/cornhole.jpg" class="max-md:w-[90%] max-w-sm rounded-lg shadow-2xl" />
         <div>
           <h1 class="text-5xl font-bold">Cornhole Tournament</h1>
-          <p class="pt-7 text-xl font-bold">In the Fossil Commons <span class="badge badge-secondary ml-2">4:30 - 6:00 PM</span></p>
+          <p class="pt-7 text-xl font-bold">In the Fossil Commons</p>
+          <p><span class="badge badge-secondary my-2 font-bold">4:30 - 6:00 PM</span></p>
           <p>Enter a tournament for a chance to win! (TEAMS OF TWO)</p>
           <p><strong>Fee per entry is $7 on schoolpay!</strong></p>
           <a href="https://docs.google.com/forms/d/e/1FAIpQLScRExJwQ9wlUr1Orsg525VCAN1h0aybEI-Hz6qaYZkI5PQEug/viewform?usp=sf_link" target="_blank"><div class="btn btn-primary mt-3 font-bold">Sign-Up</div></a>

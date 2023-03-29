@@ -29,9 +29,10 @@
           <h1 class="text-5xl font-bold pb-6">Spirit Day: Anything But a Backpack</h1>
           <hr/>
           <h3 class="text-3xl font-bold mt-6">Game Night</h3>
-          <p class="pt-1 text-lg font-bold flex gap-2 items-center">
-            Location in Fossil's Media Center <span class="badge badge-secondary font-bold">4:30 - 7:30 PM</span>
+          <p class="pt-1 text-lg font-bold">
+            Location in Fossil's Media Center
           </p>
+          <p><span class="my-2 badge badge-secondary font-bold">4:30 - 7:30 PM</span></p>
           <p>Hosted by Rho Kappa, CSHS, and Games Society, in Game Night you play board games, video games, and minigames with your friends! It includes an arcade room as well as special prizes for winners of minigames. Concessions are also avaliable for purchase</p>
           <p><strong>Entry is $5 either on schoolpay or at the door!</strong></p>
         </div>
@@ -47,7 +48,8 @@
         />
         <div>
           <h1 class="text-5xl font-bold">Panera Night</h1>
-          <p class="pt-6"><span class="badge badge-secondary font-bold mr-1">4 - 8 PM</span> Come to Panera for a fun night of food band fundraising! Bring a digital or physical flyer to donate your proceeds to Make-A-Wish Colorado!</p>
+          <p><span class="my-3 badge badge-secondary font-bold mr-1">4 - 8 PM</span></p>
+          <p> Come to Panera for a fun night of food band fundraising! Bring a digital or physical flyer to donate your proceeds to Make-A-Wish Colorado!</p>
         </div>
       </div>
     </div>

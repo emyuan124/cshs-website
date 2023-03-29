@@ -23,8 +23,8 @@
           <h1 class="text-5xl font-bold pb-6">Spirit Day: Tropical</h1>
           <hr/>
           <h3 class="text-3xl font-bold mt-6">Trivia Night</h3>
-          <p class="pt-2">
-            <span class="badge badge-secondary mr-1 font-bold">6:30 - 9:30 PM</span>
+          <p><span class="my-3 badge badge-secondary mr-1 font-bold">6:30 - 9:30 PM</span></p>
+          <p>
             Join Mu Alpha Thetain the fossil commons
             for an exiting trivia night, complete with
             food and drinks. There are four to five
@@ -40,8 +40,9 @@
       <div class="hero-content flex-col lg:flex-row-reverse gap-6 lg:gap-12">
         <img src="images/mommaperez.jpg" class="max-md:w-[90%] max-w-sm rounded-lg shadow-2xl" />
         <div>
-          <h1 class="text-3xl font-bold flex items-center gap-2">Food Truck Night <span class="badge badge-secondary ml-2">4-6 PM</span></h1>
-          <p class="mt-1">Held at the front courtyard at Fossil. More info on the 3 foodtrucks on the foodtrucks page!</p>
+          <h1 class="text-3xl font-bold">Food Truck Night</h1>
+          <p><span class="badge badge-secondary my-3 font-bold">4-6 PM</span></p>
+          <p>Held at the front courtyard at Fossil. More info on the 3 foodtrucks on the foodtrucks page!</p>
           <a href="/maww/foodtrucks"><div class="btn btn-primary mt-2 font-bold">Foodtrucks</div></a>
         </div>
       </div>

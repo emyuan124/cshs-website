@@ -20,12 +20,13 @@
       <div class="hero-content flex-col lg:flex-row gap-6 lg:gap-12">
         <img src="images/thursday-sandler.jpg" class="max-md:w-[90%] max-w-sm rounded-lg shadow-2xl" />
         <div>
-          <h1 class="text-5xl font-bold pb-6">Spirit Day: Twin Day</h1>
+          <h1 class="text-5xl font-bold pb-6">Spirit Day: Adam Sandler</h1>
           <hr/>
           <h3 class="text-3xl font-bold mt-6">Checkout Teacher Dares</h3>
           <p>Checkout some fun and exciting dares some of our teachers at Fossil have done!</p>
-          <a href=""><div class="btn btn-primary mt-2 font-bold">Dares</div></a>
-          <p class="pt-7 text-lg"><strong>Candy Gram Delivery <span class="badge badge-secondary ml-2">4th period</span></strong></p>
+          <a href="/maww/dares"><div class="btn btn-primary mt-2 font-bold">Dares</div></a>
+          <p class="pt-7 text-lg"><strong>Candy Gram Delivery</strong></p>
+          <p><span class="my-2 badge badge-secondary font-bold">4th period</span></p>
           <p>All previously purchased candy grams get delivered!</p>
         </div>
       </div>
