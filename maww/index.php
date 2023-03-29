@@ -8,18 +8,20 @@
   <body class="text-center lg:text-left">
     <?php include $_SERVER["DOCUMENT_ROOT"].'/titlebar.php'; ?>
 
-    <div class="hero h-[450px] pt-[60px]" style="background-image: url(images/fossil-ridge-high-school.jpg);">
+    <div class="hero h-[450px] pt-[60px]" style="background-image: url(images/FRHS.jpeg);">
       <div class="hero-overlay bg-opacity-50"></div>
       <div class="hero-content text-center text-white">
         <div>
-          <h1 class="mb-5 text-5xl font-bold">Make-A-Wish Week</h1>
-          <p class="mb-5 text-2xl">at Fossil Ridge High School</p>
+          <h1 class="mb-5 text-5xl font-bold">Make-A-Wish Week at FRHS</h1>
+          <p class="mb-5 text-xl">This year's Make-A-Wish Week at Fossil Ridge High School is focused
+            on Avery, a 15-year-old with a heart condition whose wish is to
+            visit Hawaii.</p>
         </div>
       </div>
     </div>
 
     <div class="flex justify-center gap-5 py-10 bg-base-200">
-      <a href="" target="_blank">
+      <a href="https://secure2.wish.org/site/TR/WishYourWay/?pg=personal&fr_id=4681&px=7870652" target="_blank">
         <button class="btn gap-2">
           <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" /></svg>
           Donate Here
@@ -129,8 +131,8 @@
       </div>
     </div>
 
-    <div class="hero py-12 lg:py-32 bg-base-100">
-      <div class="hero-content flex-col lg:flex-row-reverse gap-6 lg:gap-14">
+    <div class="hero py-12 bg-base-100">
+      <div class="hero-content flex-col lg:flex-row-reverse gap-4 lg:gap-14">
         <img
           src="images/avery.jpg"
           alt="Avery"
@@ -146,6 +148,14 @@
           <a href="/maww/Avery_Page"><button class="btn btn-primary font-bold">Learn More</button></a>
         </div>
       </div>
+    </div>
+    <div class="hero flex justify-center text-center gap-5 py-10 bg-base-200">
+      <a href="https://secure2.wish.org/site/TR/WishYourWay/?pg=personal&fr_id=4681&px=7870652" target="_blank">
+        <button class="btn gap-2">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" /></svg>
+          Donate And Make a Difference!
+        </button>
+      </a>
     </div>
     <?php include $_SERVER["DOCUMENT_ROOT"].'/footer.php'; ?>
   </body>
