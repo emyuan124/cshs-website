@@ -42,14 +42,14 @@
     <div class="hero py-12 lg:py-32 bg-base-100">
       <div class="hero-content flex-col lg:flex-row gap-6 lg:gap-24">
         <img
-          src="images/panera.png"
+          src="images/panera.jpeg"
           alt="Chipper's Lanes"
           class="max-md:w-[90%] max-w-sm rounded-lg shadow-2xl"
         />
         <div>
           <h1 class="text-5xl font-bold">Panera Night</h1>
           <p><span class="my-3 badge badge-secondary font-bold mr-1">4 - 8 PM</span></p>
-          <p> Come to Panera for a fun night of food band fundraising! Bring a digital or physical flyer to donate your proceeds to Make-A-Wish Colorado!</p>
+          <p> Come to Panera for a fun night of food band fundraising! Enter the code FUND4U during online checkout or bring a physical/digital flyer to donate your proceeds to Make-A-Wish Colorado! The address is <i>2721 Council Tree Ave #143</i></p>
         </div>
       </div>
     </div>

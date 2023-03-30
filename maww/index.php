@@ -9,7 +9,7 @@
     <?php include $_SERVER["DOCUMENT_ROOT"].'/titlebar.php'; ?>
 
     <div class="hero h-[450px] pt-[60px]" style="background-image: url(images/FRHS.jpeg);">
-      <div class="hero-overlay bg-opacity-50"></div>
+      <div class="hero-overlay bg-opacity-90"></div>
       <div class="hero-content text-center text-white">
         <div>
           <h1 class="mb-5 text-5xl font-bold">Make-A-Wish Week at FRHS</h1>
