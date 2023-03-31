@@ -44,8 +44,8 @@
                 <div class="hero my-12 lg:w-3/4 bg-base-100 rounded-xl shadow-xl">
                     <div class="hero-content text-center">
                         <div class="max-w-md">
-                        <h1 class="text-4xl md:text-5xl font-bold">Ms. Felske</h1>
-                        <p class="py-6">Ms. Felske will let her students pick her outfits when we reach $1,500 donated!</p>
+                        <h1 class="text-4xl md:text-5xl font-bold">Mr. Forester</h1>
+                        <p class="py-6">Mr. Forester will dye his hair pink when $1,500 is donated!</p>
                         </div>
                     </div>
                 </div>
@@ -59,8 +59,8 @@
                 <div class="hero my-12 lg:w-3/4 bg-base-100 rounded-xl shadow-xl">
                     <div class="hero-content text-center">
                         <div class="max-w-md">
-                        <h1 class="text-4xl md:text-5xl font-bold">Mr. Forester</h1>
-                        <p class="py-6">Mr. Forester will dye his hair pink when $2,000 is donated!</p>
+                        <h1 class="text-4xl md:text-5xl font-bold">Mr. Taylor</h1>
+                        <p class="py-6">Mr. Taylor will dye his hair AND his mustache purple when $2,000 is donated!</p>
                         </div>
                     </div>
                 </div>
@@ -89,8 +89,8 @@
                 <div class="hero my-12 lg:w-3/4 bg-base-100 rounded-xl shadow-xl">
                     <div class="hero-content text-center">
                         <div class="max-w-md">
-                        <h1 class="text-4xl md:text-5xl font-bold">Mr. Taylor</h1>
-                        <p class="py-6">Mr. Taylor will dye his hair AND his mustache purple when $3,000 is donated!</p>
+                        <h1 class="text-4xl md:text-5xl font-bold">Ms. Felske</h1>
+                        <p class="py-6">Ms. Felske will let her students pick her outfits when we reach $3,000 donated!</p>
                         </div>
                     </div>
                 </div>
