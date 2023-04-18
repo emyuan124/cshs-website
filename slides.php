@@ -12,6 +12,16 @@
     
       
       <div class="group card card-compact w-[450px] xl:w-1/3 bg-base-200 shadow-xl mt-10 cursor-pointer hover:bg-primary transition duration-300">
+        <a target="_blank" href="https://docs.google.com/presentation/d/1Wd59PD-F7i0qV-S6RaHvgDRfl6k-6_qe2FyphtFR4FU/edit?usp=sharing">
+        <figure><img src="img/meeting7.avif" onerror="this.src='img/meeting7.png'" alt="Shoes" class="group-hover:opacity-75 transition duration-300" /></figure>
+        <div class="card-body">
+          <div class="badge badge-secondary mx-auto">Monthly Meeting</div>
+          <h2 class="card-title text-2xl flex justify-center group-hover:text-white transition duration-300">April 19, 2023</h2>
+        </div>
+        </a>
+      </div>
+    
+      <div class="group card card-compact w-[450px] xl:w-1/3 bg-base-200 shadow-xl mt-10 cursor-pointer hover:bg-primary transition duration-300">
         <a target="_blank" href="https://docs.google.com/presentation/d/1wjiDybCBNOZYH4vJT8jkK7qPPKGvLNTrBI9AMgAdSIY/edit?usp=sharing">
         <figure><img src="img/meeting6.avif" onerror="this.src='img/meeting6.png'" alt="Shoes" class="group-hover:opacity-75 transition duration-300" /></figure>
         <div class="card-body">
