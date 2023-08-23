@@ -4,7 +4,6 @@
       <a href="/maww/"><div class="p-5 border-b border-base-content">MAWW</div></a>
       <a href="/cshs"><div class="p-5 border-b border-base-content">CSHS</div></a>
       <a href="/codingclub"><div class="p-5 border-b border-base-content">Coding Club</div></a>
-      <a href="/404"><div class="p-5 border-b border-base-content" >CyberCats</div></a>
       <div class="p-5">
         <label class="swap swap-rotate px-3">
           <input id="theme_switch" type="checkbox" onchange="changeTheme(this)"/>
@@ -22,7 +21,7 @@
     <div class="flex-none hidden md:flex">
       <ul class="menu menu-horizontal p-0">
         <!-- <li><a class="rounded-lg" href="/beardify.php">Beardify</a></li> -->
-        <li><a class="rounded-lg" href="/maww/">MAWW</a></li>
+        <!--<li><a class="rounded-lg" href="/maww/">MAWW</a></li>-->
         <li tabindex="0" class="rounded-lg">
           <a class="rounded-lg">
             Clubs
@@ -31,7 +30,6 @@
           <ul class="p-2 bg-base-100 z-20">
             <li><a class="rounded-lg" href="/cshs">CSHS</a></li>
             <li><a class="rounded-lg" href="/codingclub">Coding Club</a></li>
-            <li><a class="rounded-lg" href="/cybercats">Cybercats</a></li>
           </ul>
         </li>
         <label class="swap swap-rotate px-3">

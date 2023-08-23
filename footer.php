@@ -3,9 +3,8 @@
         <a class="link link-hover" href="index">Home</a> 
         <a class="link link-hover" href="board">Meet The Board</a> 
         <a class="link link-hover" href="cshs">CSHS</a> 
-        <a class="link link-hover" href="codingclub">Coding Club</a> 
-        <a class="link link-hover" href="404">Cybercats</a>
-        <a class="link link-hover" href="beardify">Beardify</a>
+        <a class="link link-hover" href="codingclub">Coding Club</a>
+        <!--<a class="link link-hover" href="beardify">Beardify</a>-->
     </div> 
     <div>
         <p>© 2022 Fossil Ridge Computer Science Honor Society</p>
