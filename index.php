@@ -9,16 +9,37 @@
   <?php include $_SERVER["DOCUMENT_ROOT"].'/titlebar.php'; ?>
 
   <div class="carousel w-full pt-[60px]" id="carousel">
+
     <div id="slide1" class="carousel-item relative w-full">
+      <a href="https://docs.google.com/forms/d/e/1FAIpQLSeVCnBeLAZINfsuv_O8p_GJ2DRyue_IZFRPbi2frTV--aFJJw/viewform">
+        <img src="img/cshs-banner.webp" class="w-full" />
+      </a>
+      <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+        <a onclick="scrollCarousel('#slide3')" class="btn btn-circle max-md:hidden">❮</a>
+        <a onclick="scrollCarousel('#slide2')" class="btn btn-circle max-md:hidden">❯</a>
+      </div>
+    </div>
+
+    <div id="slide2" class="carousel-item relative w-full">
+      <a href="/codingclub">
+        <img src="img/coding-club-banner.webp" class="w-full" />
+      </a>
+      <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+        <a onclick="scrollCarousel('#slide1')" class="btn btn-circle max-md:hidden">❮</a>
+        <a onclick="scrollCarousel('#slide3')" class="btn btn-circle max-md:hidden">❯</a>
+      </div>
+    </div>
+
+    <div id="slide3" class="carousel-item relative w-full">
       <a href="/instagram">
         <img src="img/slide1.avif" onerror="this.src='img/slide1.png'" class="w-full" />
       </a>
       <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-        <a onclick="scrollCarousel('#slide3')" class="btn btn-circle max-md:hidden">❮</a> 
-        <a onclick="scrollCarousel('#slide2')" class="btn btn-circle max-md:hidden">❯</a>
+        <a onclick="scrollCarousel('#slide2')" class="btn btn-circle max-md:hidden">❮</a>
+        <a onclick="scrollCarousel('#slide1')" class="btn btn-circle max-md:hidden">❯</a>
       </div>
     </div> 
-    <div id="slide2" class="carousel-item relative w-full">
+    <!--<div id="slide2" class="carousel-item relative w-full">
       <a href="/beardify.php">
         <img src="img/slide2.avif" onerror='this.src="img/slide2.png"' title="Even though it's no longer No Shave November, we wanted to keep this up" class="w-full" />
       </a>
@@ -26,16 +47,8 @@
         <a onclick="scrollCarousel('#slide1')" class="btn btn-circle max-md:hidden">❮</a> 
         <a onclick="scrollCarousel('#slide3')" class="btn btn-circle max-md:hidden">❯</a>
       </div>
-    </div> 
-    <div id="slide3" class="carousel-item relative w-full">
-      <a href="https://docs.google.com/forms/d/e/1FAIpQLSeVCnBeLAZINfsuv_O8p_GJ2DRyue_IZFRPbi2frTV--aFJJw/viewform">
-        <img src="img/slide3.avif" onerror="this.src='img/slide3.png'" class="w-full" />
-      </a>
-      <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-        <a onclick="scrollCarousel('#slide2')" class="btn btn-circle max-md:hidden">❮</a>
-        <a onclick="scrollCarousel('#slide1')" class="btn btn-circle max-md:hidden">❯</a>
-      </div>
-    </div> 
+    </div> -->
+
   </div>
   <div class="flex justify-center w-full py-4 gap-4 bg-base-200">
     <a onclick="scrollCarousel('#slide1')" class="slide-btn btn btn-xs btn-secondary">1</a> 
@@ -47,7 +60,7 @@
         <img src="img/hero.avif" onerror="this.src='img/hero.png'" class="max-md:w-[90%] max-w-sm rounded-lg shadow-2xl" />
         <div>
           <h1 class="text-5xl font-bold">Who We Are</h1>
-          <p class="py-6">Computer Science Honor Society, Coding Club, and CyberCats were all started by different students in the 2021-2022 school year to promote Computer Science in the school. Each of the different boards realized that the three organizations were working towards the same goal, so we decided to begin working together to create an even stronger Computer Science program at Fossil Ridge. As part of our merger, we decided on a few key principles on how we continued to operate. <br><br> <strong>Everything we do will work to promote enthusiasm in Computer Science, increase Computer Science service opportunities, and honor excellence in any field of Computer Science.</strong></p>
+          <p class="py-6">Computer Science Honor Society and Coding Club were started by different students in the 2021-2022 school year to promote Computer Science in the school. Both boards realized that the two organizations were working towards the same goal, so we decided to begin working together to create an even stronger Computer Science program at Fossil Ridge. As part of our merger, we decided on a few key principles on how we continued to operate. <br><br> <strong>Everything we do will work to promote enthusiasm in Computer Science, increase Computer Science service opportunities, and honor excellence in any field of Computer Science.</strong></p>
           <a href="board"><button class="btn btn-primary">Meet The Board</button></a>
         </div>
       </div>
@@ -80,19 +93,8 @@
           </div>
         </div>
       </div>
-      <div class="group card max-md:w-[95%] w-80 bg-base-100 shadow-xl hover:bg-primary cursor-pointer  transition duration-300" onclick="window.location.href='404'">
-        <figure><img src="img/cybercats.avif" onerror="this.src='img/cybercats.png'" alt="CyberCats Logo" class="group-hover:opacity-75 transition duration-300" /></figure>
-        <div class="card-body group-hover:text-white transition duration-300">
-          <h2 class="card-title">
-            Cybercats
-            <div class="badge badge-secondary">Coming Soon</div>
-          </h2>
-          <p>Hacking into the mainframe one line at a time...</p>
-          <div class="card-actions justify-end">
-            <div class="badge badge-outline">General Club</div> 
-          </div>
-        </div>
-      </div>
+
+
     </div>
   </div>
   <div class="hero py-12 lg:py-32 bg-base-100">
