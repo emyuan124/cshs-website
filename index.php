@@ -9,13 +9,22 @@
   <?php include $_SERVER["DOCUMENT_ROOT"].'/titlebar.php'; ?>
 
   <div class="carousel w-full pt-[60px]" id="carousel">
-
+    <div id="slide0" class="carousel-item relative w-full">
+      <a href="https://forms.gle/S9Zj1aTc13AQUdGr7">
+        <img src="img/hackathon-2023-banner.webp" class="w-full" />
+      </a>
+      <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+        <a onclick="scrollCarousel('#slide3')" class="btn btn-circle max-md:hidden">❮</a>
+        <a onclick="scrollCarousel('#slide1')" class="btn btn-circle max-md:hidden">❯</a>
+      </div>
+    </div>
+    
     <div id="slide1" class="carousel-item relative w-full">
       <a href="https://docs.google.com/forms/d/e/1FAIpQLSeVCnBeLAZINfsuv_O8p_GJ2DRyue_IZFRPbi2frTV--aFJJw/viewform">
         <img src="img/cshs-banner.webp" class="w-full" />
       </a>
       <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-        <a onclick="scrollCarousel('#slide3')" class="btn btn-circle max-md:hidden">❮</a>
+        <a onclick="scrollCarousel('#slide0')" class="btn btn-circle max-md:hidden">❮</a>
         <a onclick="scrollCarousel('#slide2')" class="btn btn-circle max-md:hidden">❯</a>
       </div>
     </div>
@@ -36,7 +45,7 @@
       </a>
       <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
         <a onclick="scrollCarousel('#slide2')" class="btn btn-circle max-md:hidden">❮</a>
-        <a onclick="scrollCarousel('#slide1')" class="btn btn-circle max-md:hidden">❯</a>
+        <a onclick="scrollCarousel('#slide0')" class="btn btn-circle max-md:hidden">❯</a>
       </div>
     </div> 
     <!--<div id="slide2" class="carousel-item relative w-full">
@@ -51,6 +60,7 @@
 
   </div>
   <div class="flex justify-center w-full py-4 gap-4 bg-base-200">
+    <a onclick="scrollCarousel('#slide0')" class="slide-btn btn btn-xs btn-secondary">0</a>
     <a onclick="scrollCarousel('#slide1')" class="slide-btn btn btn-xs btn-secondary">1</a> 
     <a onclick="scrollCarousel('#slide2')" class="slide-btn btn btn-xs btn-primary">2</a> 
     <a onclick="scrollCarousel('#slide3')" class="slide-btn btn btn-xs btn-primary">3</a> 
