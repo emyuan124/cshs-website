@@ -56,34 +56,42 @@
   </div>
   <div class="text-5xl text-center font-bold pt-12">Previous Meetings</div>
   <div class="px-10 flex flex-wrap justify-center gap-10 pb-10">
+
+    <!-- FORMAT COPY/PASTE
+
     <div class="group card card-compact w-[300px] xl:w-1/5 bg-base-200 shadow-xl mt-10 cursor-pointer hover:bg-primary transition duration-300">
-      <figure><img src="img/hero.avif" onerror="this.src='img/hero.png'" alt="Shoes" class="group-hover:opacity-75 transition duration-300" /></figure>
-      <div class="card-body">
-        <div class="badge badge-secondary mx-auto">Month DD, YYYY</div>
-        <h2 class="card-title text-xl flex justify-center group-hover:text-white transition duration-300">Name of Meeting</h2>
-      </div>
+      <a href="[SLIDES URL]">
+        <figure><img src="img/[IMAGE NAME]" alt="Picture of Coding Club slide" class="group-hover:opacity-75 transition duration-300" /></figure>
+        <div class="card-body">
+          <div class="badge badge-secondary mx-auto">[DATE]</div>
+          <h2 class="card-title text-xl flex justify-center group-hover:text-white transition duration-300">[NAME OF LESSON]</h2>
+        </div>
+      </a>
     </div>
+
+    -->
+    
     <div class="group card card-compact w-[300px] xl:w-1/5 bg-base-200 shadow-xl mt-10 cursor-pointer hover:bg-primary transition duration-300">
-      <figure><img src="img/hero.avif" onerror="this.src='img/hero.png'" alt="Shoes" class="group-hover:opacity-75 transition duration-300" /></figure>
-      <div class="card-body">
-        <div class="badge badge-secondary mx-auto">Month DD, YYYY</div>
-        <h2 class="card-title text-xl flex justify-center group-hover:text-white transition duration-300">Name of Meeting</h2>
-      </div>
+      <a href="https://docs.google.com/presentation/d/e/2PACX-1vQXiEh7VYv9v11FHzKo_kOmBo2bcd0ftjvv6AI4O2F2qk7-y93XB9I7AGLSxrI1HaVvlnAn40RQbFhY/pub?start=false&loop=false&delayms=3000">
+        <figure><img src="img/coding-club-9-6-2023.webp" alt="Picture of Coding Club slide" class="group-hover:opacity-75 transition duration-300" /></figure>
+        <div class="card-body">
+          <div class="badge badge-secondary mx-auto">September 6, 2023</div>
+          <h2 class="card-title text-xl flex justify-center group-hover:text-white transition duration-300">Python day 1</h2>
+        </div>
+      </a>
     </div>
+
     <div class="group card card-compact w-[300px] xl:w-1/5 bg-base-200 shadow-xl mt-10 cursor-pointer hover:bg-primary transition duration-300">
-      <figure><img src="img/hero.avif" onerror="this.src='img/hero.png'" alt="Shoes" class="group-hover:opacity-75 transition duration-300" /></figure>
-      <div class="card-body">
-        <div class="badge badge-secondary mx-auto">Month DD, YYYY</div>
-        <h2 class="card-title text-xl flex justify-center group-hover:text-white transition duration-300">Name of Meeting</h2>
-      </div>
+      <a href="https://docs.google.com/presentation/d/e/2PACX-1vSK9zFVDChn-sDnzA8MWzCjqbh1mmMvz0RCaC2ztons7IQzlY_Mtx5J8i439VoYu1jR4TqmCMHcE78f/pub?start=false&loop=false&delayms=3000">
+        <figure><img src="img/coding-club-8-30-2023.webp" alt="Picture of Coding Club slide" class="group-hover:opacity-75 transition duration-300" /></figure>
+        <div class="card-body">
+          <div class="badge badge-secondary mx-auto">August 30, 2023</div>
+          <h2 class="card-title text-xl flex justify-center group-hover:text-white transition duration-300">Intro to Coding Club</h2>
+        </div>
+      </a>
     </div>
-    <div class="group card card-compact w-[300px] xl:w-1/5 bg-base-200 shadow-xl mt-10 cursor-pointer hover:bg-primary transition duration-300">
-      <figure><img src="img/hero.avif" onerror="this.src='img/hero.png'" alt="Shoes" class="group-hover:opacity-75 transition duration-300" /></figure>
-      <div class="card-body">
-        <div class="badge badge-secondary mx-auto">Month DD, YYYY</div>
-        <h2 class="card-title text-xl flex justify-center group-hover:text-white transition duration-300">Name of Meeting</h2>
-      </div>
-    </div>
+
+    
   </div>
   <?php include $_SERVER["DOCUMENT_ROOT"].'/footer.php'; ?>
 </body>
