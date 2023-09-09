@@ -1,16 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>FRHS Tech</title>
+    <title>CSHS Meeting Slides</title>
     <?php include $_SERVER["DOCUMENT_ROOT"].'/head.php'; ?>
 </head>
 <body data-theme="night">
   <?php include $_SERVER["DOCUMENT_ROOT"].'/titlebar.php'; ?>
   <div class="pt-[60px] flex flex-col justify-between min-h-screen">
     <div class="px-10 flex flex-wrap justify-center gap-10 pb-10">
-
+	
     
       
+      <div class="group card card-compact w-[450px] xl:w-1/3 bg-base-200 shadow-xl mt-10 cursor-pointer hover:bg-primary transition duration-300">
+        <a target="_blank" href="https://docs.google.com/presentation/d/1vajpk7RFsMhWebvBs9R3egBsFfDiNnsR3t8MPhNtdpg/edit?usp=sharing">
+        <figure><img src="img/meeting8.webp"  alt="Meeting 8" class="group-hover:opacity-75 transition duration-300" /></figure>
+        <div class="card-body">
+          <div class="badge badge-secondary mx-auto">Monthly Meeting</div>
+          <h2 class="card-title text-2xl flex justify-center group-hover:text-white transition duration-300">Sept 13, 2023</h2>
+        </div>
+        </a>
+      </div>
+     </div>
+	
+	<h1 class="text-4xl text-center">Last year's slides</h1>
+
+     <div class="px-10 flex flex-wrap justify-center gap-10 pb-10">
+	
+	    
       <div class="group card card-compact w-[450px] xl:w-1/3 bg-base-200 shadow-xl mt-10 cursor-pointer hover:bg-primary transition duration-300">
         <a target="_blank" href="https://docs.google.com/presentation/d/1Wd59PD-F7i0qV-S6RaHvgDRfl6k-6_qe2FyphtFR4FU/edit?usp=sharing">
         <figure><img src="img/meeting7.avif" onerror="this.src='img/meeting7.png'" alt="Shoes" class="group-hover:opacity-75 transition duration-300" /></figure>
