@@ -70,6 +70,16 @@
     </div>
 
     -->
+    
+    <div class="group card card-compact w-[300px] xl:w-1/5 bg-base-200 shadow-xl mt-10 cursor-pointer hover:bg-primary transition duration-300">
+      <a href="https://docs.google.com/presentation/d/1nF4D15fHHc8ztE7fks40zBlFEU7pdp76iH87Bp-2RSE/edit?usp=sharing">
+        <figure><img src="img/coding-club-9-27-2023.webp" alt="Picture of Coding Club slide" class="group-hover:opacity-75 transition duration-300" /></figure>
+        <div class="card-body">
+          <div class="badge badge-secondary mx-auto">September 27, 2023</div>
+          <h2 class="card-title text-xl flex justify-center group-hover:text-white transition duration-300">Python day 3</h2>
+        </div>
+      </a>
+    </div>
 
     <div class="group card card-compact w-[300px] xl:w-1/5 bg-base-200 shadow-xl mt-10 cursor-pointer hover:bg-primary transition duration-300">
       <a href="https://docs.google.com/presentation/d/1eQFgQF2SQeeH4g3CtqKfz6Is1wX0X3do23ztc6HWsP0/edit?usp=sharing">
