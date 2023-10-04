@@ -17,7 +17,7 @@
   </div>
   <div class="hero py-12 lg:py-32 bg-base-100">
         <div class="hero-content flex-col lg:flex-row gap-6 lg:gap-12">
-        <img src="img/hero.avif" onerror="this.src='img/hero.png'" class="max-md:w-[90%] max-w-sm rounded-lg shadow-2xl" />
+        <a href="img/codingclub-classroom-fullres.webp"><img src="img/codingclub-classroom.webp" onerror="this.src='img/hero.png'" class="max-md:w-[90%] max-w-sm rounded-lg shadow-2xl" /></a>
         <div class="w-full md:w-[500px]">
             <h1 class="text-5xl font-bold mb-5 max-md:text-center">What We Do</h1>
             <div class="mb-5 flex justify-left gap-4 items-center bg-base-200 shadow-xl rounded-full w-100 text-2xl p-4">
@@ -47,7 +47,7 @@
   </div>
   <div class="hero py-12 lg:py-32 bg-base-200">
     <div class="hero-content flex-col lg:flex-row-reverse gap-6 lg:gap-24">
-      <img src="img/hero.avif" onerror="this.src='img/hero.png'" class="max-md:w-[90%] max-w-sm rounded-lg shadow-2xl" />
+      <a href="img/codingclub-sujal-presenting-fullres.webp"><img src="img/codingclub-sujal-presenting.webp" class="max-md:w-[90%] max-w-sm rounded-lg shadow-2xl" /></a>
       <div class="w-1/2 max-md:w-full max-md:text-center">
         <h1 class="text-5xl font-bold">When and Where Do We Meet?</h1>
         <p class="py-6">Coding Club meets on Wednesdays during lunch at room 209. Our meetings are weekly with the exception of the 2nd week of every month. <br><br> <i>*The 2nd week of every month is reserved for CSHS.</i></p>
@@ -70,6 +70,16 @@
     </div>
 
     -->
+
+    <div class="group card card-compact w-[300px] xl:w-1/5 bg-base-200 shadow-xl mt-10 cursor-pointer hover:bg-primary transition duration-300">
+      <a href="https://docs.google.com/presentation/d/1rXxnVjjU5OyF0q7J0h60bK2ErU8wJPAvRbn3zCWcFTY/edit?usp=sharing">
+        <figure><img src="img/coding-club-10-4-2023.webp" alt="Picture of Coding Club slide" class="group-hover:opacity-75 transition duration-300" /></figure>
+        <div class="card-body">
+          <div class="badge badge-secondary mx-auto">October 4, 2023</div>
+          <h2 class="card-title text-xl flex justify-center group-hover:text-white transition duration-300">Python day 4</h2>
+        </div>
+      </a>
+    </div>
     
     <div class="group card card-compact w-[300px] xl:w-1/5 bg-base-200 shadow-xl mt-10 cursor-pointer hover:bg-primary transition duration-300">
       <a href="https://docs.google.com/presentation/d/1nF4D15fHHc8ztE7fks40zBlFEU7pdp76iH87Bp-2RSE/edit?usp=sharing">
