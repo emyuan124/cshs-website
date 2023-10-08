@@ -1,4 +1,6 @@
 .htaccess
+.club-spreadsheet.csv
+clubs/.club-spreadsheet.csv
 /microProtector.php
 game/
 .idea/
