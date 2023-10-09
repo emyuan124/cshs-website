@@ -40,14 +40,15 @@
 
             // Loop through the CSV data and generate HTML for each entry
             foreach ($csvData as $i => $row) {
-                $name = $csvData[$i]["Name"];
-                $description = $csvData[$i]["Description"];
-                $type = $csvData[$i]["Type"];
-                $contact = $csvData[$i]["Contact"];
-                $meetTimes = $csvData[$i]["MeetTimes"];
-                $location = $csvData[$i]["Location"];
-                $logo = $csvData[$i]["Logo"];
-                $website = $csvData[$i]["Website"];
+                //Gets each value from the array for ease of use
+                $name = htmlspecialchars($csvData[$i]["Name"]);
+                $description = htmlspecialchars($csvData[$i]["Description"]);
+                $type = htmlspecialchars($csvData[$i]["Type"]);
+                $contact = htmlspecialchars($csvData[$i]["Contact"]);
+                $meetTimes = htmlspecialchars($csvData[$i]["MeetTimes"]);
+                $location = htmlspecialchars($csvData[$i]["Location"]);
+                $logo = htmlspecialchars($csvData[$i]["Logo"]);
+                $website = htmlspecialchars($csvData[$i]["Website"]);
 
                 // Output the HTML block for each entry
                 ?>
