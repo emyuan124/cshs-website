@@ -8,7 +8,7 @@
 <body data-theme="night">
   <?php include $_SERVER["DOCUMENT_ROOT"].'/titlebar.php'; ?>
   <div class="pt-[60px] flex flex-col justify-between min-h-screen">
-    <div class="flex justify-center items-center gap-10 mt-12">
+    <div class="flex flex-wrap justify-center items-center gap-10 mt-12">
         <?php
             ini_set('display_errors', '1');
             ini_set('display_startup_errors', '1');
