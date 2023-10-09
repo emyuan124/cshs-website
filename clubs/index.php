@@ -28,7 +28,9 @@
                         foreach ($headers as $index => $header) {
                             $rowData[$header] = $row[$index]; // Associate column names with values
                         }
-                        $csvData[] = $rowData; // Add the row data to the result array
+                        if ($rowData["Name"] != ""){
+                            $csvData[] = $rowData; // Add the row data to the result array
+                        }
                     }
                     fclose($handle);
                 }
