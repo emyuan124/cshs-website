@@ -22,21 +22,22 @@ function setCookie(cname, cvalue, exdays) {
 }
 
 function changeTheme(check) {
-    document.body.dataset.theme = check.checked ? "cmyk" : "night";
-    if (getCookie("theme") != check.checked ? "cmyk": "night") {
-        setCookie("theme", check.checked ? "cmyk" : "night", 360);
+    console.log('Changing');
+    document.body.dataset.theme = check.checked ? "winter" : "dark";
+    if (getCookie("theme") != check.checked ? "winter": "dark") {
+        setCookie("theme", check.checked ? "winter" : "dark", 360);
     }
 }
 
 window.onload = () => {
     theme = document.getElementById('theme_switch');
     current_theme = getCookie("theme");
-    if (current_theme == "cmyk") {
-        document.body.dataset.theme = "cmyk";
+    if (current_theme == "winter") {
+        document.body.dataset.theme = "winter";
         theme.checked = true;
     }
     else {
-        document.body.dataset.theme = "night";
+        document.body.dataset.theme = "dark";
         theme.checked = false;
     }
 }

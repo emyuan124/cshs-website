@@ -5,7 +5,7 @@
     <script src="js/carousel.js"></script>
     <?php include $_SERVER["DOCUMENT_ROOT"].'/head.php'; ?>
 </head>
-<body data-theme="night" class="text-center lg:text-left">
+<body class="text-center lg:text-left">
   <?php include $_SERVER["DOCUMENT_ROOT"].'/titlebar.php'; ?>
 
   <div class="carousel w-full pt-[60px]" id="carousel">
@@ -81,7 +81,7 @@
       <div class="group card max-md:w-[95%] w-80 bg-base-100 shadow-xl cursor-pointer hover:bg-primary transition duration-300" onclick="window.location.href='cshs'">
         <figure><img src="img/cshs.avif" onerror="this.src='img/cshs.png'" alt="CSHS Logo" class="group-hover:opacity-75 transition duration-300" /></figure>
         <div class="card-body group-hover:text-white transition duration-300">
-          <h2 class="card-title">
+          <h2 class="card-title max-lg:justify-center">
             Computer Science Honor Society
           </h2>
           <p>Promoting Excellence in Computer Science</p>
@@ -93,17 +93,15 @@
       <div class="group card max-md:w-[95%] w-80 bg-base-100 shadow-xl hover:bg-primary cursor-pointer  transition duration-300" onclick="window.location.href='codingclub'">
         <figure><img src="img/codingclub.avif" onerror="this.src='img/codingclub.png'" alt="Coding Club Logo" class="group-hover:opacity-75 transition duration-300" /></figure>
         <div class="card-body group-hover:text-white transition duration-300">
-          <h2 class="card-title">
+          <h2 class="card-title max-lg:justify-center">
             Coding Club
-            <div class="badge badge-info">In Progress</div>
           </h2>
-          <p>For everything CS related, and not...</p>
+          <p>For everything CS related. Focus is on Python.</p>
           <div class="card-actions justify-end">
             <div class="badge badge-outline">General Club</div> 
           </div>
         </div>
       </div>
-
 
     </div>
   </div>
