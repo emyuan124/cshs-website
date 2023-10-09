@@ -30,8 +30,10 @@
     </div>
     <div class="flex-none hidden md:flex">
       <ul class="menu menu-horizontal px-1 gap-3 mr-3">
-        <li>
-          <details>
+        <li><a href="/clubs">Fossil Club List</a></li>
+        <li><a href="/cshs">CSHS</a></li>
+        <li><a href="/codingclub">Coding Club</a></li>
+          <!--<details>
             <summary>
               Clubs
             </summary>
@@ -40,7 +42,7 @@
               <li><a href="/codingclub">Coding Club</a></li>
             </ul>
           </details>
-        </li>
+        </li>-->
         <li>
           <label class="swap swap-rotate px-3">
             <input id="theme_switch" type="checkbox" onchange="changeTheme(this)"/>
