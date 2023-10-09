@@ -104,6 +104,9 @@
             }
         ?>
     </div>
+    <div class="hero justify-center items-center">
+        <p class="py-6">To add your club to this list, please fill out <a class="font-medium text-blue-600 dark:text-blue-500 hover:underline" href="https://forms.gle/kjD5jCpkpFvT9Bop9">this form</a>.</p>
+    </div>
   </div>
   <?php include $_SERVER["DOCUMENT_ROOT"].'/footer.php'; ?>
 </body>
