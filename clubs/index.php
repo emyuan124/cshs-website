@@ -71,7 +71,14 @@
                 $location = htmlspecialchars($csvData[$i]["Location"]);
                 $logo = htmlspecialchars($csvData[$i]["Logo"]);
                 $website = htmlspecialchars($csvData[$i]["Website"]);
-                $theme = $_COOKIE['theme'];
+
+                // Gets the theme if a cookie exists, otherwise default to dark
+                if (isset($_COOKIE['theme'])){
+                    $theme = $_COOKIE['theme'];
+                } else {
+                    $theme = 'dark';
+                }
+
 
                 if ($theme === 'dark') {
                     $gradient_color = 'dark_gradient';
