@@ -6,8 +6,16 @@
     <?php include $_SERVER["DOCUMENT_ROOT"].'/head.php'; ?>
 </head>
 <body data-theme="night">
-  <?php include $_SERVER["DOCUMENT_ROOT"].'/titlebar.php'; ?>
-  <div class="pt-[60px] flex flex-col justify-between min-h-screen">
+    <style>
+        .dark_gradient {
+            background: linear-gradient(to bottom, transparent 0%, transparent 40%, #191e24 77%, #191e24 100%);
+        }
+        .light_gradient {
+            background: linear-gradient(to bottom, transparent 0%, transparent 40%, #f0f6ff 77%, #f0f6ff 100%);
+        }
+    </style>
+    <?php include $_SERVER["DOCUMENT_ROOT"].'/titlebar.php'; ?>
+    <div class="pt-[60px] flex flex-col justify-between min-h-screen">
     <div class="flex flex-wrap justify-center items-center gap-10 mt-12">
         <?php
             ini_set('display_errors', '1');
@@ -51,16 +59,26 @@
                 $location = htmlspecialchars($csvData[$i]["Location"]);
                 $logo = htmlspecialchars($csvData[$i]["Logo"]);
                 $website = htmlspecialchars($csvData[$i]["Website"]);
+                $theme = $_COOKIE['theme'];
+
+                if ($theme === 'dark') {
+                    $gradient_color = 'dark_gradient';
+                } else {
+                    $gradient_color = 'light_gradient';
+                }
 
                 // Output the HTML block for each entry
                 ?>
                 <div onclick="openModal(<?php echo $i; ?>)" class="group hover:bg-primary bg-base-200 card card-side w-[95%] sm:w-[500px] h-[200px] sm:h-[250px] bg-base-100 shadow-xl transition duration-200 cursor-pointer">
                   <img src="<?php echo $logo; ?>" class="object-cover w-2/5 sm:w-[250px] rounded-l-2xl group-hover:opacity-75 transition duration-200" alt="Logo"/>
-                  <div class="basis-3/5 sm:basis-1/2 card-body group-hover:text-white transition duration-150">
+                  <div class="basis-3/5 sm:basis-1/2 card-body group-hover:text-white transition duration-150 relative">
+                    <div class="group-hover:hidden absolute w-full h-full <?php echo $gradient_color; ?> top-0 left-0 z-10"></div>
                     <h2 class="card-title max-sm:text-lg max-lg:justify-center"><?php echo $name; ?></h2>
-                    <p class="max-sm:text-sm"><?php echo $description; ?></p>
-                    <div class="card-actions justify-end">
-                      <div class="badge-sm sm:badge-md badge badge-outline"><?php echo $type; ?></div> 
+                    <p class="max-sm:text-sm overflow-hidden">
+                        <?php echo $description; ?>
+                    </p>
+                    <div class="card-actions self-stretch justify-end">
+                      <div class="z-20 badge-sm sm:badge-md badge badge-outline"><?php echo $type; ?></div> 
                     </div>
                   </div>
                 </div>
