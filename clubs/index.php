@@ -8,14 +8,26 @@
 <body data-theme="night">
     <style>
         .dark_gradient {
-            background: linear-gradient(to bottom, transparent 0%, transparent 40%, #191e24 77%, #191e24 100%);
+            background: linear-gradient(to bottom, transparent 0%, transparent 60%, #191e24 77%, #191e24 100%);
         }
         .light_gradient {
-            background: linear-gradient(to bottom, transparent 0%, transparent 40%, #f0f6ff 77%, #f0f6ff 100%);
+            background: linear-gradient(to bottom, transparent 0%, transparent 60%, #f0f6ff 77%, #f0f6ff 100%);
         }
     </style>
     <?php include $_SERVER["DOCUMENT_ROOT"].'/titlebar.php'; ?>
-    <div class="pt-[60px] flex flex-col justify-between min-h-screen">
+    <div class="pt-[60px] flex flex-col justify-between min-h-screen ">
+    <div class="mb-5 text-5xl font-bold text-center py-12 max-w-[1800px] mx-auto">
+        <h1 class="">Fossil Clubs and Organizations List</h1>
+        <h2 class="text-2xl"><a href="http://clubs.frhs.tech">clubs.frhs.tech</a></h2>
+        <p class="text-2xl py-6">In order to create a single unified location for all the clubs at Fossil, CSHS
+        (Computer Science Honor Society) has created a system to display every club and organization that is easily
+        updatable. To add your club to this list, simply fill out
+        <a class="font-medium text-blue-600 dark:text-blue-500 hover:underline"
+        href="https://forms.gle/kjD5jCpkpFvT9Bop9">this form</a>, and CSHS will approve your club very quickly.</p>
+
+        <p class="text-2xl ">Some clubs have long descriptions. To read the whole description, or to see the meeting
+        info, simply click on the club and a popup will appear.</p>
+    </div>
     <div class="flex flex-wrap justify-center items-center gap-10 mt-12">
         <?php
             ini_set('display_errors', '1');
@@ -125,7 +137,12 @@
         ?>
     </div>
     <div class="hero justify-center items-center">
-        <p class="py-6">To add your club to this list, please fill out <a class="font-medium text-blue-600 dark:text-blue-500 hover:underline" href="https://forms.gle/kjD5jCpkpFvT9Bop9">this form</a>.</p>
+        <p class="py-6">To add your club to this list, please fill out
+        <a class="font-medium text-blue-600 dark:text-blue-500 hover:underline"
+        href="https://forms.gle/kjD5jCpkpFvT9Bop9">this form</a>.
+        To report an error, please email
+        <a class="font-medium text-blue-600 dark:text-blue-500 hover:underline"
+        href="mailto:cshs@frhs.tech">cshs@frhs.tech</a></p>
     </div>
   </div>
   <?php include $_SERVER["DOCUMENT_ROOT"].'/footer.php'; ?>
