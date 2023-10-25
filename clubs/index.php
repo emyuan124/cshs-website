@@ -89,7 +89,9 @@
                 // Output the HTML block for each entry
                 ?>
                 <div onclick="openModal(<?php echo $i; ?>)" class="group hover:bg-primary bg-base-200 card card-side w-[95%] sm:w-[500px] h-[200px] sm:h-[250px] bg-base-100 shadow-xl transition duration-200 cursor-pointer">
-                  <img src="<?php echo $logo; ?>" class="object-cover w-2/5 sm:w-[250px] rounded-l-2xl group-hover:opacity-75 transition duration-200" alt="Logo"/>
+                  <?php if(!empty($logo)){ ?>
+                        <img src="<?php echo $logo; ?>" class="object-cover w-2/5 sm:w-[250px] rounded-l-2xl group-hover:opacity-75 transition duration-200" alt="Logo"/>
+                  <?php } ?>
                   <div class="basis-3/5 sm:basis-1/2 card-body group-hover:text-white transition duration-150 relative">
                     <div class="group-hover:hidden absolute w-full h-full <?php echo $gradient_color; ?> top-0 left-0 z-10"></div>
                     <h2 class="card-title max-sm:text-lg max-lg:justify-center"><?php echo $name; ?></h2>
