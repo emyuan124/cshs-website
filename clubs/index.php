@@ -104,7 +104,7 @@
                         <?php echo $description; ?>
                     </p>
                     <div class="card-actions self-stretch justify-end">
-                      <div class="z-20 badge-sm sm:badge-md badge badge-outline"><?php echo $type; ?></div> 
+                      <div class="badge-sm sm:badge-md badge badge-outline" style="z-index: 15"><?php echo $type; ?></div>
                     </div>
                   </div>
                 </div>
