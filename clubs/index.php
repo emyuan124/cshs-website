@@ -60,6 +60,11 @@
             // Get CSV data in the desired format
             $csvData = readCSV($csvFilePath);
 
+            // Alphabetizes the list
+            usort($csvData, function($a, $b) {
+                return strcmp($a['Name'], $b['Name']);
+            });
+
             // Loop through the CSV data and generate HTML for each entry
             foreach ($csvData as $i => $row) {
                 //Gets each value from the array for ease of use
