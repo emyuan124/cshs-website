@@ -68,8 +68,10 @@
             // Loop through the CSV data and generate HTML for each entry
             foreach ($csvData as $i => $row) {
                 //Gets each value from the array for ease of use
+                // Special chars filtered as per https://xkcd.com/327/
                 $name = htmlspecialchars($csvData[$i]["Name"]);
-                $description = htmlspecialchars($csvData[$i]["Description"]);
+                // Description removes all special chars and adds line breaks back in
+                $description = str_replace(htmlspecialchars("<br>"), "<br>", htmlspecialchars($csvData[$i]["Description"]));
                 $type = htmlspecialchars($csvData[$i]["Type"]);
                 $contact = htmlspecialchars($csvData[$i]["Contact"]);
                 $meetTimes = htmlspecialchars($csvData[$i]["MeetTimes"]);
