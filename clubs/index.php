@@ -287,7 +287,7 @@
                 $meetDayFound = false;
                 foreach ($meetDays as $meetDay){
                     // Checks to see if the club meet times mentions the day of the week
-                    if(!strpos(strtolower($meetTimes), $meetDay ) === false){
+                    if(strpos(strtolower($meetTimes), $meetDay ) !== false){
                         // if so, append it to the list of clubAttributes (for filtering)
                         $clubAttributes[] = $meetDay;
                         $meetDayFound = true;
