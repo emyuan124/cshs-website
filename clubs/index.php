@@ -19,8 +19,13 @@
     <script>
     //IDs of Checkboxes that correspond EXACTLY to an attribute property (from php)
     const MeetDayCheckboxIDs = ['monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'other'];
-    const TypeCheckboxIDs = ["general", "honor", "comp", "sport"]
-    const ListOfAllFilters = [MeetDayCheckboxIDs, TypeCheckboxIDs]
+    const TypeCheckboxIDs = ["general", "honor", "comp", "sport"];
+    const stuRunCheckboxIDs = ["stuRun", "notStuRun"];
+    const feeCheckboxIDs = ["fee", "nofee"];
+    const appCheckboxIDs = ["app", "noapp"];
+    const ListOfAllFilters = [MeetDayCheckboxIDs, TypeCheckboxIDs, stuRunCheckboxIDs, feeCheckboxIDs, appCheckboxIDs];
+
+    // REMEMBER TO UPDATE THE LIST OF EMPTY LISTS DOWN BELOW!!!!
 
     function resetFilters(){
         // iterates through the list of filters
@@ -74,7 +79,7 @@
         // Filters is a list of lists
         // Each inner list is one of the filters
         // Make sure this list is as long as the total number of filters
-        var filters = [[],[]];
+        var filters = [[],[],[],[],[]];
 
 
 
@@ -160,6 +165,15 @@
                                 <li><label><input type="checkbox" class="mr-2" id='honor' onclick="updateFilters()" checked>Honor Society</label></li>
                                 <li><label><input type="checkbox" class="mr-2" id='comp' onclick="updateFilters()" checked>Competition Club</label></li>
                                 <li><label><input type="checkbox" class="mr-2" id='sport' onclick="updateFilters()" checked>Sport</label></li>
+                            </ul>
+                            <ul class="p-2 shadow menu dropdown-content z-[1] bg-base-100 rounded-box w-52 z-20">
+                                <h2 class="font-bold text-lg">Other properties</h3>
+                                <li><label><input type="checkbox" class="mr-2" id='fee' onclick="updateFilters()" checked>Fee Required</label></li>
+                                <li><label><input type="checkbox" class="mr-2" id='nofee' onclick="updateFilters()" checked>No Fee Required</label></li>
+                                <li><label><input type="checkbox" class="mr-2" id='app' onclick="updateFilters()" checked>Application Required</label></li>
+                                <li><label><input type="checkbox" class="mr-2" id='noapp' onclick="updateFilters()" checked>No Application Required</label></li>
+                                <li><label><input type="checkbox" class="mr-2" id='stuRun' onclick="updateFilters()" checked>Student-run Club</label></li>
+                                <li><label><input type="checkbox" class="mr-2" id='notStuRun' onclick="updateFilters()" checked>School-sponsored Club</label></li>
                             </ul>
                             <ul class="p-2 shadow menu dropdown-content z-[1] bg-base-100 rounded-box w-52 z-20">
                                 <h2 class="font-bold text-lg">Filter Mode</h3>
@@ -250,7 +264,7 @@
                         foreach ($headers as $index => $header) {
                             $rowData[$header] = $row[$index]; // Associate column names with values
                         }
-                        if ($rowData["Name"] != ""){
+                        if ($rowData["Name of Club"] != "" && $rowData["Approval"] == "TRUE"){
                             $csvData[] = $rowData; // Add the row data to the result array
                         }
                     }
@@ -264,22 +278,28 @@
 
             // Alphabetizes the list
             usort($csvData, function($a, $b) {
-                return strcmp($a['Name'], $b['Name']);
+                return strcmp($a['Name of Club'], $b['Name of Club']);
             });
 
             // Loop through the CSV data and generate HTML for each entry
             foreach ($csvData as $i => $row) {
                 //Gets each value from the array for ease of use
                 // Special chars filtered as per https://xkcd.com/327/
-                $name = htmlspecialchars($csvData[$i]["Name"]);
+                $name = htmlspecialchars($csvData[$i]["Name of Club"]);
                 // Description removes all special chars and adds line breaks back in
-                $description = str_replace(htmlspecialchars("<br>"), "<br>", htmlspecialchars($csvData[$i]["Description"]));
-                $type = htmlspecialchars($csvData[$i]["Type"]);
-                $contact = htmlspecialchars($csvData[$i]["Contact"]);
-                $meetTimes = htmlspecialchars($csvData[$i]["MeetTimes"]);
-                $location = htmlspecialchars($csvData[$i]["Location"]);
-                $logo = htmlspecialchars($csvData[$i]["Logo"]);
-                $website = htmlspecialchars($csvData[$i]["Website"]);
+                $description = str_replace(htmlspecialchars("<br>"), "<br>", htmlspecialchars($csvData[$i]["Description of club (general description, what you do, events you run, etc.)"]));
+                $type = htmlspecialchars($csvData[$i]["Club Type"]);
+                $contact = htmlspecialchars($csvData[$i]["Contact Email"]);
+                $meetTimes = htmlspecialchars($csvData[$i]["Club meeting times"]);
+                $location = htmlspecialchars($csvData[$i]['Meeting Location (e.g. "N117" or "Roundhouse")']);
+                $logo = htmlspecialchars($csvData[$i]["Club Logo URL"]);
+                $website = htmlspecialchars($csvData[$i]["If your club has a website (or master log) you would like to link to, please include the URL here"]);
+
+                // Extra club properties from checkbox
+                $extraProperties = explode(', ', htmlspecialchars($csvData[$i]["Please check the boxes for any of the following that apply to your club"]));
+                $feeReq = in_array("My club requires members to pay a fee for participation", $extraProperties);
+                $appReq = in_array("My club requires an application to join", $extraProperties);
+                $stuRun = in_array("My club is Student-run (Admin made me fill out a special form at the beginning of the year)", $extraProperties);
 
                 // Gets properties of club for filtering purposes
                 $clubAttributes = [];
@@ -310,7 +330,22 @@
                 // and adds it to the clubAttributes list
                 $clubAttributes[] = $shortClubType;
 
-
+                // For binary values like "fee" or "nofee", a janky if statement is used
+                if($feeReq){
+                    $clubAttributes[] = 'fee';
+                } else {
+                    $clubAttributes[] = 'nofee';
+                }
+                if($appReq){
+                    $clubAttributes[] = 'app';
+                } else {
+                    $clubAttributes[] = 'noapp';
+                }
+                if($stuRun){
+                    $clubAttributes[] = 'stuRun';
+                } else {
+                    $clubAttributes[] = 'notStuRun';
+                }
 
                 // Gets the theme if a cookie exists, otherwise default to dark
                 if (isset($_COOKIE['theme'])){
@@ -373,6 +408,24 @@
                                     <span>No Link</span>
                                 <?php endif; ?>
                             </div>
+                            <?php if($appReq):?>
+                                <div class="basis-1/2 flex justify-start gap-2 items-center">
+                                    <i class="fi fi-rr-edit"></i>
+                                    <span>Application required</span>
+                                </div>
+                            <?php endif; ?>
+                            <?php if($feeReq):?>
+                                <div class="basis-1/2 flex justify-start gap-2 items-center">
+                                    <i class="fi fi-rr-coins"></i>
+                                    <span>Fee required</span>
+                                </div>
+                            <?php endif; ?>
+                            <?php if($stuRun):?>
+                                <div class="basis-1/2 flex justify-start gap-2 items-center">
+                                    <i class="fi fi-rr-users-alt"></i>
+                                    <span>Student-run club</span>
+                                </div>
+                            <?php endif; ?>
                         </div>
                         <div class="divider">Description</div>
                         <div class="text-center">
