@@ -141,15 +141,15 @@
             <p class="text-2xl ">Some clubs have long descriptions. To read the whole description, or to see the meeting
             info, simply click on the club and a popup will appear.</p>
         </div>
-        <div class="flex justify-center p-4 bg-gray-800 text-white mb-5 mx-auto">
+        <div class="flex justify-center p-4 bg-base-300  mb-5 mx-auto">
             <div class="flex space-x-4 ">
-                <button class="bg-blue-500 hover:bg-blue-600 px-4 py-2 rounded focus:outline-none mr-2" onclick="openModal('filters')">Adjust Filters</button>
+                <button class="bg-blue-500 hover:bg-blue-600 px-4 py-2 rounded focus:outline-none mr-2 text-white" onclick="openModal('filters')">Adjust Filters</button>
 
                 <dialog id="filters" class="modal">
                     <div class="modal-box">
                         <!-- Filter Popup -->
                         <h1 class="font-bold text-lg">Filters</h3>
-                        <div class="flex flex-wrap justify-center ">
+                        <div class="flex flex-wrap justify-center text-sm">
                             <ul class="p-2 shadow menu dropdown-content z-[1] bg-base-100 rounded-box w-52 z-20">
                                 <h2 class="font-bold text-lg">Meet Days</h3>
                                 <li><label><input type="checkbox" class="mr-2" id='monday' onclick="updateFilters()" checked>Mondays</label></li>
@@ -238,7 +238,7 @@
                   </ul>
                 </details>-->
             </div>
-            <button class="bg-blue-500 hover:bg-blue-600 px-4 py-2 rounded focus:outline-none" onclick="resetFilters()">Reset Filters</button>
+            <button class="bg-blue-500 hover:bg-blue-600 px-4 py-2 rounded focus:outline-none text-white" onclick="resetFilters()">Reset Filters</button>
         </div>
 
 
