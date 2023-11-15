@@ -72,6 +72,16 @@
     -->
 
     <div class="group card card-compact w-[300px] xl:w-1/5 bg-base-200 shadow-xl mt-10 cursor-pointer hover:bg-primary transition duration-300">
+      <a href="https://docs.google.com/presentation/d/1J6kXnLopqJjZBnHhsShpRfoAzplys2GpQdxNxqJJ-go/edit?usp=sharing">
+        <figure><img src="img/coding-club-11-15-2023.png" alt="Picture of Coding Club slide" class="group-hover:opacity-75 transition duration-300" /></figure>
+        <div class="card-body">
+          <div class="badge badge-secondary mx-auto">November 15, 2023</div>
+          <h2 class="card-title text-xl flex justify-center group-hover:text-white transition duration-300">Python Coding Problems</h2>
+        </div>
+      </a>
+    </div>
+
+    <div class="group card card-compact w-[300px] xl:w-1/5 bg-base-200 shadow-xl mt-10 cursor-pointer hover:bg-primary transition duration-300">
       <a href="https://docs.google.com/presentation/d/124eE2zbQnj_g_dggmK2v6d5aLxOMQvzZ9PZkx1s7Dxc/edit?usp=sharing">
         <figure><img src="img/coding-club-10-25-2023.webp" alt="Picture of Coding Club slide" class="group-hover:opacity-75 transition duration-300" /></figure>
         <div class="card-body">
