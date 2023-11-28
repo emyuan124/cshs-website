@@ -17,7 +17,7 @@
         <div class="flex justify-center items-center">
           <div class="avatar">
             <div class="w-24 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
-              <img src="img/beardify/Mr_Dannahower.avif" id="current_teacher" />
+              <img src="img/beardify/Dannahower.avif" onerror="this.src='img/beardify/Dannahower.png' id="current_teacher" />
             </div>
           </div>
         </div>
@@ -42,85 +42,56 @@
         </button>
         <div class="text-center text-3xl max-xl:text-2xl mt-2 font-semibold clear-right">Teachers</div>
         <div class="flex flex-wrap justify-center mt-5">
-          <div class="group card w-[200px] max-xl:w-[90%] mb-5 bg-base-100 cursor-pointer shadow-xl hover:bg-base-300 transition" onclick="changeTeacher('Mr_Dannahower')">
-            <figure class="px-2 pt-2">
-              <img src="img/beardify/Mr_Dannahower.avif" alt="Shoes" class="rounded-xl h-[200px] max-xl:h-full w-full object-fill" />
-            </figure>
-            <div class="card-body p-3 items-center text-center">
-              <h2 class="font-semibold text-xl max-xl:text-base">Mr. Dannahower</h2>
+
+        <?php
+          // Format is [TeacherImageStem, TeacherName]
+          // An image stem is the thing before an image
+          // e.g. "Picture" would be the image stem for Picture.png
+          // This is done because images should be in both .avif and .png formats
+          // AVIF images are much better, but PNGs are more widely supported as of 2023
+          $teachers = [["Dannahower", "Mr. Dannahower"], 
+                      ["Forster", "Mr. Forster"],
+                      ["Menefee","Mr. Menefee"],
+                      ["Peardot","Mr. Peardot"],
+                      ["Ruffer","Mr. Ruffer"],
+                      ["Stone","Mr. Stone"],
+                      ["Forkner","Mr. Forkner"],
+                      ["Degear","Mr. Degear"],
+                      ["Reimers","Mr. Reimers"],
+                      ["Brown","Mr. Brown"]
+          ];
+
+          //Loops through each teacher and makes an icon to change to them
+          foreach($teachers as $teacher){
+            // Seperate the variables from the tuple for readability
+            $imgStem = $teacher[0];
+            $name = $teacher[1];
+            ?>
+
+            <div class="group card w-[200px] max-xl:w-[90%] mb-5 bg-base-100 cursor-pointer shadow-xl hover:bg-base-300 transition" onclick="changeTeacher('<?php echo($imgStem) ?>')">
+              <figure class="px-2 pt-2">
+                <img 
+                    src="img/beardify/<?php echo($imgStem)?>.avif" 
+                    onerror="this.src='img/beardify/<?php echo($imgStem)?>.png' 
+                    alt="Picture of <?php echo($name) ?>" 
+                    class="rounded-xl h-[200px] max-xl:h-full w-full object-fill" />
+              </figure>
+              <div class="card-body p-3 items-center text-center">
+                <h2 class="font-semibold text-xl max-xl:text-base"><?php echo($name) ?></h2>
+              </div>
             </div>
-          </div>
-          <div class="group card w-[200px] max-xl:w-[90%] mb-5 bg-base-100 cursor-pointer shadow-xl hover:bg-base-300 transition" onclick="changeTeacher('Mr_Forster')">
-            <figure class="px-2 pt-2">
-              <img src="img/beardify/Mr_Forster.avif" alt="Shoes" class="rounded-xl h-[200px] max-xl:h-full w-full object-fill" />
-            </figure>
-            <div class="card-body p-3 items-center text-center">
-              <h2 class="font-semibold text-xl max-xl:text-base">Mr. Forster</h2>
-            </div>
-          </div>
-          <div class="group card w-[200px] max-xl:w-[90%] mb-5 bg-base-100 cursor-pointer shadow-xl hover:bg-base-300 transition" onclick="changeTeacher('Mr_Menefee')">
-            <figure class="px-2 pt-2">
-              <img src="img/beardify/Mr_Menefee.avif" alt="Shoes" class="rounded-xl h-[200px] max-xl:h-full w-full object-fill" />
-            </figure>
-            <div class="card-body p-3 items-center text-center">
-              <h2 class="font-semibold text-xl max-xl:text-base">Mr. Menefee</h2>
-            </div>
-          </div>
-          <div class="group card w-[200px] max-xl:w-[90%] mb-5 bg-base-100 cursor-pointer shadow-xl hover:bg-base-300 transition" onclick="changeTeacher('Mr_Peardot')">
-            <figure class="px-2 pt-2">
-              <img src="img/beardify/Mr_Peardot.avif" alt="Shoes" class="rounded-xl h-[200px] max-xl:h-full w-full object-fill" />
-            </figure>
-            <div class="card-body p-3 items-center text-center">
-              <h2 class="font-semibold text-xl max-xl:text-base">Mr. Peardot</h2>
-            </div>
-          </div>
-          <div class="group card w-[200px] max-xl:w-[90%] mb-5 bg-base-100 cursor-pointer shadow-xl hover:bg-base-300 transition" onclick="changeTeacher('Mr_Ridgeway')">
-            <figure class="px-2 pt-2">
-              <img src="img/beardify/Mr_Ridgeway.avif" alt="Shoes" class="rounded-xl h-[200px] max-xl:h-full w-full object-fill" />
-            </figure>
-            <div class="card-body p-3 items-center text-center">
-              <h2 class="font-semibold text-xl max-xl:text-base">Mr. Ridgeway</h2>
-            </div>
-          </div>
-          <div class="group card w-[200px] max-xl:w-[90%] mb-5 bg-base-100 cursor-pointer shadow-xl hover:bg-base-300 transition" onclick="changeTeacher('Mr_Rufer')">
-            <figure class="px-2 pt-2">
-              <img src="img/beardify/Mr_Rufer.avif" alt="Shoes" class="rounded-xl h-[200px] max-xl:h-full w-full object-fill" />
-            </figure>
-            <div class="card-body p-3 items-center text-center">
-              <h2 class="font-semibold text-xl max-xl:text-base">Mr. Rufer</h2>
-            </div>
-          </div>
-          <div class="group card w-[200px] max-xl:w-[90%] mb-5 bg-base-100 cursor-pointer shadow-xl hover:bg-base-300 transition" onclick="changeTeacher('Mr_Stone')">
-            <figure class="px-2 pt-2">
-              <img src="img/beardify/Mr_Stone.avif" alt="Shoes" class="rounded-xl h-[200px] max-xl:h-full w-full object-fill" />
-            </figure>
-            <div class="card-body p-3 items-center text-center">
-              <h2 class="font-semibold text-xl max-xl:text-base">Mr. Stone</h2>
-            </div>
-          </div>
-          <div class="group card w-[200px] max-xl:w-[90%] mb-5 bg-base-100 cursor-pointer shadow-xl hover:bg-base-300 transition" onclick="changeTeacher('Mr_Taylor')">
-            <figure class="px-2 pt-2">
-              <img src="img/beardify/Mr_Taylor.avif" alt="Shoes" class="rounded-xl h-[200px] max-xl:h-full w-full object-fill" />
-            </figure>
-            <div class="card-body p-3 items-center text-center">
-              <h2 class="font-semibold text-xl max-xl:text-base">Mr. Taylor</h2>
-            </div>
-          </div>
-          <div class="group card w-[200px] max-xl:w-[90%] mb-5 bg-base-100 cursor-pointer shadow-xl hover:bg-base-300 transition" onclick="changeTeacher('Mr_Wulff')">
-            <figure class="px-2 pt-2">
-              <img src="img/beardify/Mr_Wulff.avif" alt="Shoes" class="rounded-xl h-[200px] max-xl:h-full w-full object-fill" />
-            </figure>
-            <div class="card-body p-3 items-center text-center">
-              <h2 class="font-semibold text-xl max-xl:text-base">Mr. Wulff</h2>
-            </div>
-          </div>
+            
+            <?php
+          }
+        ?>
+
         </div>
       </div>
       <div class="col-span-3 max-lg:col-span-5 bg-base-200 rounded-lg overflow-hidden relative">
         <div class="touch-none resize-drag w-80 max-lg:w-1/2 z-48 absolute box-border hover:outline hover:outline-white hover:outline-2">
           <img id="beard_img" src="img/beardify/Beard_1.avif" class="w-full">
         </div>
-        <img id="teacher_img" src="img/beardify/Mr_Dannahower.avif" class="w-3/4 max-lg:w-full  mx-auto">
+        <img style="height:100%" id="teacher_img" src="img/beardify/Dannahower.avif" onerror="this.src='img/beardify/Dannahower.png'" class="max-lg:w-full mx-auto">
       </div>
       <div id="beards" class="bg-base-200 rounded-lg overflow-y-scroll max-lg:fixed max-lg:h-[calc(100vh-60px)] left-0 top-[60px] max-lg:w-3/4 max-lg:hidden">
         <button class="btn btn-square btn-outline lg:hidden mt-5 mr-5 float-right" onclick="removeMenu(this)">
