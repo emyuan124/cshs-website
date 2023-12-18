@@ -8,9 +8,20 @@
   <?php include $_SERVER["DOCUMENT_ROOT"].'/titlebar.php'; ?>
   <div class="pt-[60px] flex flex-col justify-between min-h-screen">
     <div class="px-10 flex flex-wrap justify-center gap-10 pb-10">
+
+      <div class="group card card-compact w-[450px] xl:w-1/3 bg-base-200 shadow-xl mt-10 cursor-pointer hover:bg-primary transition duration-300">
+        <a target="_blank" href="https://docs.google.com/presentation/d/1tlNbAkFKhV94YwML2RKTctzY8Rw1d-aMUDJ2zCiW3IE/edit?usp=sharing">
+        <figure><img src="img/meeting11.png"  alt="Meeting 11" class="group-hover:opacity-75 transition duration-300" /></figure>
+          <div class="card-body">
+            <div class="badge badge-secondary mx-auto">Monthly Meeting</div>
+            <h2 class="card-title text-2xl flex justify-center group-hover:text-white transition duration-300">Dec 13, 2023</h2>
+          </div>
+        </a>
+	    </div>
+
       <div class="group card card-compact w-[450px] xl:w-1/3 bg-base-200 shadow-xl mt-10 cursor-pointer hover:bg-primary transition duration-300">
         <a target="_blank" href="https://docs.google.com/presentation/d/15pqHFszj9O-BlEyNDMpLYD6ByCCaMUI4JAZ_08QZGx8/edit?usp=sharing">
-        <figure><img src="img/meeting10.png"  alt="Meeting 9" class="group-hover:opacity-75 transition duration-300" /></figure>
+        <figure><img src="img/meeting10.png"  alt="Meeting 10" class="group-hover:opacity-75 transition duration-300" /></figure>
           <div class="card-body">
             <div class="badge badge-secondary mx-auto">Monthly Meeting</div>
             <h2 class="card-title text-2xl flex justify-center group-hover:text-white transition duration-300">Nov 8, 2023</h2>
