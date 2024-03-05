@@ -119,7 +119,7 @@
                   <div class="basis-1/2 flex justify-start gap-2 items-center">
                       <i class="fi fi-rr-link-alt"></i>
                       <?php if (!empty($day['Event']['Signup'])): ?>
-                          <a href="<?php echo $day['Event']['Signup']; ?>" class="link" target="_blank">Sign-Up Link</a>
+                          <a href="<?php echo $day['Event']['Signup']; ?>" class="link border-none outline-none" target="_blank">Sign-Up Link</a>
                       <?php else: ?>
                           <span>No Signup Required</span>
                       <?php endif; ?>
