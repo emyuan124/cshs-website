@@ -3,7 +3,7 @@
   <head>
     <?php include $_SERVER["DOCUMENT_ROOT"].'/head.php'; ?>
     <link rel="icon" type="image/png" href="images/icon.png" />
-    <title>Make-A-Wish Week</title>
+    <title>Sabercats Care</title>
     <script>
     tailwind.config = {
       theme: {
