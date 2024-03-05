@@ -2,7 +2,7 @@ window.onscroll = function(){
     var B = document.body;
     var D = document.documentElement;
     D = (D.clientHeight)? D: B;
-    document.querySelector('#nav').className = `fixed z-20 navbar ${D.scrollTop <= 280 ? "bg-base-200" : "bg-primary text-white"} shadow-xl transition duration-500`;
+    document.querySelector('#nav').className = `fixed z-50 navbar ${D.scrollTop <= 280 ? "bg-base-200" : "bg-primary text-white"} shadow-xl transition duration-500`;
 };
 
 var sidebar = false;

@@ -1,0 +1,130 @@
+[
+    {
+        "Date": "18",
+        "Spirit": "Tropical Day",
+        "Event": null
+    },
+    {
+        "Date": "19",
+        "Spirit": "Monochromatic Day",
+        "Event": {
+            "Name": "Walk-A-Dog-A-Thon",
+            "Location": "Front Circle FRHS",
+            "Time": "5:00-6:00 PM",
+            "Club": "FRESH Club",
+            "Signup": "https://docs.google.com/forms/d/e/1FAIpQLSec5tIVM0CxfLtPSofSOdI3X23XituR4cY1sHCHaN1ay1r1pw/viewform",
+            "Fee": "$5 on SchoolPay, $10 In Person",
+            "Description": "Walk your dog in support of Trees, Water, & People. Food, Prizes, and Charity! Dogs are recommended but not required. You may walk without a dog if you'd like. Bring a water bottle, leash, bags to pick up dog poop (we will have these too), and extra donations for our charity."
+        }
+    },
+    {
+        "Date": "20",
+        "Spirit": "Adam Sandler Day",
+        "Event": {
+            "Name": "LAN Party",
+            "Location": "Room 209",
+            "Time": "4:30-6:30 PM",
+            "Club": "CSHS",
+            "Fee": "5",
+            "Description": "Play video games to fight against Malaria! Bring along friends to play your favorite games together. Snacks and drinks for sale."
+        }
+    },
+    {
+        "Date": "21",
+        "Spirit": "Decades Day",
+        "Event": {
+            "Name": "Geoguesser Night",
+            "Location": "Media Center",
+            "Time": "6:00-7:30 PM",
+            "Club": "Rho Kappa",
+            "Signup": "https://docs.google.com/forms/d/e/1FAIpQLScA6vZta5QuheyVzx00PIz1p5jO5vBfvAIACzmQV9SzsLqquw/viewform",
+            "Fee": "7",
+            "Description": "Rho Kappa would love to have you at the Geoguessr Tournament! All proceeds will be donated to Make-A-Wish Colorado and ther winners will receive a special prize ;). You may have a maximum team of 3 but teams of 2 are highly recommended. Pizza will be provided."
+        }
+    },
+    {
+        "Date": "22",
+        "Spirit": "Fossil Day",
+        "Event": {
+            "Name": "Karaoke Night",
+            "Location": "Commons",
+            "Time": "6:30-9:30 PM",
+            "Club": "Mu Alpha Theta & Tri-M",
+            "Signup": "https://docs.google.com/forms/d/e/1FAIpQLScrTrbIS5DWnMAub_b6vqcPCHqgn0pCj2LPQ1aMO-gqF0U0lg/viewform",
+            "Fee": "7",
+            "Description": "We can't wait to see you at Karaoke Night, which all the proceeds will be going to The Kayla Foundation! We have many new and exciting things planned for this event. We will providing a dessert bar and drinks for this event!"
+        }
+    },
+    {
+        "Date": "24",
+        "Spirit": "",
+        "Event": {
+            "Name": "Museum Field Trip",
+            "Location": "Denver Museum of Nature and Science",
+            "Time": "1:00-3:00 PM",
+            "Club": "SNHS",
+            "Signup": "https://forms.gle/m88zFPyduGcmohL77",
+            "Fee": "7",
+            "Description": "SNHS would like to invite you to join us at the Denver Museum of Nature and Science for a chance to have fun with friends and see all the cool exhibits! You do need to find your own transportation down there- we do not have a bus and this event begins on site at the museum at 1 pm. All proceeds will be donated to St. Jude Children's Hospital in Denver"
+        }
+    },
+    {
+        "Date": "25",
+        "Spirit": "Hat/Cap Day",
+        "Event": {
+            "Name": "LBD Food Truck Rally",
+            "Location": "Front Circle FRHS",
+            "Time": "After School",
+            "Club": "Leadership by Design",
+            "Description": ""
+        }
+    },
+    {
+        "Date": "26",
+        "Spirit": "Comfy Day",
+        "Event": {
+            "Name": "Movie Night",
+            "Location": "Roundhouse",
+            "Time": "6:00 PM",
+            "Club": "NEHS",
+            "Description": "Join us on our movie night to watch Twilight! All proceeds will be going towards Reach Out and Read Colorado."
+        }
+    },
+    {
+        "Date": "27",
+        "Spirit": "BBQ/Soccer Parent Day",
+        "Event": {
+            "Name": "Cornhole Tournament",
+            "Location": "Big Gym",
+            "Time": "4:30-5:30 PM",
+            "Club": "Key Club",
+            "Description": ""
+        }
+    },
+    {
+        "Date": "28",
+        "Spirit": "Jersey Day",
+        "Event": {
+            "Name": "Dodgeball Tournament",
+            "Location": "Big Gym",
+            "Time": "7:00-10:00 PM",
+            "Club": "NHS",
+            "Signup": "https://docs.google.com/forms/d/e/1FAIpQLSeu5TWFlQST4o9ze9gg9ayhXvEmk_6uIFfUcHfYRnVGule9yw/viewform?usp=sf_link",
+            "Fee": "10",
+            "Description": "All proceeds from the 2024 dodgeball tournament are going to the Against Malaria Foundation. Teams of 5 are required and 3 substitutes are optional! Team Costumes are also highly encouraged."
+        }
+    },
+    {
+        "Date": "29",
+        "Spirit": "Anything But A Backpack Day",
+        "Event": {
+            "Name": "Trivia Night",
+            "Location": "Commons",
+            "Time": "6:30-9:30 PM",
+            "Club": "Mu Alpha Theta",
+            "Signup": "https://docs.google.com/forms/d/1TIEe-RwaJrF1mtuy6nPGKu5Lf8bn-5tq-yhDML7mQ9M/closedform",
+            "Fee": "$17 on SchoolPay, $20 In Person",
+            "Description": "We can't wait to see you at Disco Trivia Night! We are so excited for everything we've planned. This year, the event is disco-themed, but you will also see the majority of questions from other categories! There will be tons of prizes—especially for our top placers, minigame winners, and most spirited team. Teams consist of 4-5 members! If you're team isn't large enough or you haven't found a team to join, still sign up, and we will try to conglomerate individuals."
+        }
+    }
+]

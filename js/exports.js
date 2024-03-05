@@ -1,8 +1,8 @@
 module.exports = {
-    daisyui: {
-      themes: [
-        "winter",
-        "dark", 
-      ],
-    },
+  daisyui: {
+    themes: [
+      "winter",
+      "dark", 
+    ],
+  },
 }

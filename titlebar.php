@@ -1,4 +1,4 @@
-  <div class="hidden text-center fixed flex justify-center items-center z-20 top-0 left-0 w-3/4 h-screen bg-base-300" id="sidebar">
+  <div class="hidden text-center fixed flex justify-center items-center z-50 top-0 left-0 w-3/4 h-screen bg-base-300" id="sidebar">
     <div class="text-xl font-semibold">
       <!-- <a href="/beardify"><div class="p-5 border-b border-base-content">Beardify</div></a> -->
       <!--<a href="/maww/"><div class="p-5 border-b border-base-content">MAWW</div></a>-->
@@ -14,7 +14,7 @@
       </div>
     </div>
   </div>
-  <div class="navbar fixed z-20 bg-base-200 shadow-xl">
+  <div class="navbar fixed z-50 bg-base-200 shadow-xl">
     <div class="flex-1">
       <a class="btn btn-ghost normal-case text-xl">daisyUI</a>
     </div>
@@ -24,7 +24,7 @@
       </button>
     </div>
   </div>
-  <div class="navbar fixed z-20 navbar bg-base-200 shadow-xl" id="nav">
+  <div class="z-50 navbar fixed bg-base-200 shadow-xl" id="nav">
     <div class="flex-1">
       <a class="btn btn-ghost normal-case text-2xl" href="/index">
         <img src="/img/logo.avif" onerror="this.src='/img/logo.png'" class="w-10 mr-2">FRHS CS</a>
