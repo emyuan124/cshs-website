@@ -127,7 +127,7 @@
                   <div class="basis-1/2 flex justify-start gap-2 items-center">
                     <i class="fi fi-rr-coins"></i>
                     <?php if (!empty($day['Event']['Fee'])): ?>
-                      <?php if($index == count($days) - 1 || $index == 1): ?>
+                      <?php if($index == count($days) - 1 || $index == 0 || $index == 3): ?>
                         <span><?= $day['Event']['Fee'] ?></span>
                       <?php else: ?>
                         <span>$<?= $day['Event']['Fee'] ?> Entry Fee</span>
