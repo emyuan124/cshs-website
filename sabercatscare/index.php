@@ -42,7 +42,7 @@
       <div class="hero-overlay bg-opacity-90"></div>
       <div class="hero-content text-center text-white">
         <div>
-          <h1 class="mb-5 text-5xl font-bold">SaberCats Give</h1>
+          <h1 class="mb-5 text-5xl font-bold">SaberCats Care</h1>
           <p class="mb-5 text-xl">This year's Charity Month is marked by multiple honor socities donating to many non-profits in need. Join us in making a difference!</p>
         </div>
       </div>
