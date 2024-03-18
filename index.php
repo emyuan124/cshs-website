@@ -20,11 +20,11 @@
     </div>-->
 
     <div id="slide0" class="carousel-item relative w-full">
-      <a href="/beardify.php">
-        <img src="img/slide2.avif" onerror='this.src="img/slide2.png"' title="Put beards on your teachers!" class="w-full" />
+      <a href="/sabercatscare/">
+        <img src="img/2w2g-banner.webp" title="2 weeks of events for various charities from fossil clubs!" class="w-full" />
       </a>
       <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-        <a onclick="scrollCarousel('#slide3')" class="btn btn-circle max-md:hidden">❮</a> 
+        <a onclick="scrollCarousel('#slide3')" class="btn btn-circle max-md:hidden">❮</a>
         <a onclick="scrollCarousel('#slide1')" class="btn btn-circle max-md:hidden">❯</a>
       </div>
     </div>
