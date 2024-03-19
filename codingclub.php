@@ -54,6 +54,17 @@
       </div>
     </div>
   </div>
+
+  <div class="hero py-12 lg:py-32 bg-base-300">
+    <div class="hero-content flex-col lg:flex-row-reverse gap-6 lg:gap-24">
+      <a href="img/codewars-fullres.webp"><img src="img/codewars.webp" class="max-md:w-[90%] max-w-sm rounded-lg shadow-2xl" /></a>
+      <div class="w-1/2 max-md:w-full max-md:text-center">
+        <h1 class="text-5xl font-bold">Code Wars</h1>
+        <p class="py-6">Code Wars is a Coding Club event where members go to the HP building to compete at coding for prizes. <a href="HPECodeWars2023Problems.pdf">Each team of 3 people gets only 1 computer and frantically tries to solve coding problems</a></p>
+      </div>
+    </div>
+  </div>
+
   <div class="text-5xl text-center font-bold pt-12">Previous Meetings</div>
   <div class="px-10 flex flex-wrap justify-center gap-10 pb-10">
 
