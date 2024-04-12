@@ -10,6 +10,16 @@
     <div class="px-10 flex flex-wrap justify-center gap-10 pb-10">
 
 	<div class="group card card-compact w-[450px] xl:w-1/3 bg-base-200 shadow-xl mt-10 cursor-pointer hover:bg-primary transition duration-300">
+        <a target="_blank" href="https://docs.google.com/presentation/d/1B_m-LQvCF2S4tzQJA680x4F_nSSmS5i7z96DzqKc0M8/edit?usp=sharing">
+        <figure><img src="img/meeting14.webp"  alt="Meeting 13" class="group-hover:opacity-75 transition duration-300" /></figure>
+          <div class="card-body">
+            <div class="badge badge-secondary mx-auto">Monthly Meeting</div>
+            <h2 class="card-title text-2xl flex justify-center group-hover:text-white transition duration-300">Apr 10, 2024</h2>
+          </div>
+        </a>
+	    </div>
+	
+	<div class="group card card-compact w-[450px] xl:w-1/3 bg-base-200 shadow-xl mt-10 cursor-pointer hover:bg-primary transition duration-300">
         <a target="_blank" href="https://docs.google.com/presentation/d/1lXWQDWf0AHZkRelU79XdnJvsYQ-vje_1WrpA8jaE1CI/edit?usp=sharing">
         <figure><img src="img/meeting13.webp"  alt="Meeting 13" class="group-hover:opacity-75 transition duration-300" /></figure>
           <div class="card-body">
