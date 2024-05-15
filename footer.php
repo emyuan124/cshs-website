@@ -8,6 +8,6 @@
         <!--<a class="link link-hover" href="beardify">Beardify</a>-->
     </div> 
     <div>
-        <p>© 2023 Fossil Ridge Computer Science Honor Society</p>
+        <p>© 2024 Fossil Ridge Computer Science Honor Society</p>
     </div>
 </footer>
