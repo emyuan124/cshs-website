@@ -41,7 +41,7 @@
 
     <div id="slide2" class="carousel-item relative w-full">
       <a href="/codingclub">
-        <img src="img/coding-club-banner.webp" class="w-full" />
+        <img src="img/Coding-Club-2024-25-Banner.png" class="w-full" />
       </a>
       <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
         <a onclick="scrollCarousel('#slide1')" class="btn btn-circle max-md:hidden">❮</a>
