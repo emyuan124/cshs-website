@@ -1,7 +1,7 @@
   <div class="hidden text-center fixed flex justify-center items-center z-50 top-0 left-0 w-3/4 h-screen bg-base-300" id="sidebar">
     <div class="text-xl font-semibold">
       <!-- <a href="/beardify"><div class="p-5 border-b border-base-content">Beardify</div></a> -->
-      <a href="/sabercatscare/"><div class="p-5 border-b border-base-content">Sabercats Care</div></a>
+      <!--<a href="/sabercatscare/"><div class="p-5 border-b border-base-content">Sabercats Care</div></a>-->
       <a href="/clubs"><div class="p-5 border-b border-base-content">Fossil Clubs List</div></a>
       <a href="/cshs"><div class="p-5 border-b border-base-content">CSHS</div></a>
       <a href="/codingclub"><div class="p-5 border-b border-base-content">Coding Club</div></a>
