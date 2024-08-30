@@ -3,7 +3,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link href="https://cdn.jsdelivr.net/npm/daisyui@3.9.2/dist/full.css" rel="stylesheet" type="text/css" />
 <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css'>
-<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon"/>
+<link rel="icon" type="image/x-icon" href="/img/favicon.ico">
 <script src="https://cdn.tailwindcss.com"></script>
 <script src="/js/exports.js"></script>
 <script src="/js/nav.js"></script>
