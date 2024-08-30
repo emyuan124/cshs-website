@@ -4,7 +4,7 @@
         <a class="link link-hover" href="board">Meet The Board</a> 
         <a class="link link-hover" href="cshs">CSHS</a> 
         <a class="link link-hover" href="codingclub">Coding Club</a>
-        <a class="link link-hover" href="https://github.com/SirAlienTheGreat/cshs-website">Website Source Code</a>
+        <a class="link link-hover" href="https://github.com/emyuan124/cshs-website">Website Source Code</a>
         <!--<a class="link link-hover" href="beardify">Beardify</a>-->
     </div> 
     <div>
