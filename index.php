@@ -9,7 +9,7 @@
   <?php include $_SERVER["DOCUMENT_ROOT"].'/titlebar.php'; ?>
 
   <div class="carousel w-full pt-[60px]" id="carousel">
-    <!--<div id="slide0" class="carousel-item relative w-full">
+    <div id="slide0" class="carousel-item relative w-full">
       <a href="https://forms.gle/S9Zj1aTc13AQUdGr7">
         <img src="img/hackathon-2023-banner.webp" class="w-full" />
       </a>
@@ -17,9 +17,9 @@
         <a onclick="scrollCarousel('#slide3')" class="btn btn-circle max-md:hidden">❮</a>
         <a onclick="scrollCarousel('#slide1')" class="btn btn-circle max-md:hidden">❯</a>
       </div>
-    </div>-->
+    </div>
 
-    <div id="slide0" class="carousel-item relative w-full">
+    <!--<div id="slide0" class="carousel-item relative w-full">
       <a href="/sabercatscare/">
         <img src="img/2w2g-banner.webp" title="2 weeks of events for various charities from fossil clubs!" class="w-full" />
       </a>
@@ -27,7 +27,7 @@
         <a onclick="scrollCarousel('#slide3')" class="btn btn-circle max-md:hidden">❮</a>
         <a onclick="scrollCarousel('#slide1')" class="btn btn-circle max-md:hidden">❯</a>
       </div>
-    </div>
+    </div>-->
     
     <div id="slide1" class="carousel-item relative w-full">
       <a href="https://docs.google.com/forms/d/e/1FAIpQLSeVCnBeLAZINfsuv_O8p_GJ2DRyue_IZFRPbi2frTV--aFJJw/viewform">
@@ -62,10 +62,10 @@
 
   </div>
   <div class="flex justify-center w-full py-4 gap-4 bg-base-200">
-    <a onclick="scrollCarousel('#slide0')" class="slide-btn btn btn-xs btn-secondary">0</a>
-    <a onclick="scrollCarousel('#slide1')" class="slide-btn btn btn-xs btn-primary">1</a> 
-    <a onclick="scrollCarousel('#slide2')" class="slide-btn btn btn-xs btn-primary">2</a> 
-    <a onclick="scrollCarousel('#slide3')" class="slide-btn btn btn-xs btn-primary">3</a> 
+    <a onclick="scrollCarousel('#slide0')" class="slide-btn btn btn-xs btn-secondary">1</a>
+    <a onclick="scrollCarousel('#slide1')" class="slide-btn btn btn-xs btn-primary">2</a> 
+    <a onclick="scrollCarousel('#slide2')" class="slide-btn btn btn-xs btn-primary">3</a> 
+    <a onclick="scrollCarousel('#slide3')" class="slide-btn btn btn-xs btn-primary">4</a> 
   </div>
   <div class="hero py-12 lg:py-32 bg-base-100">
       <div class="hero-content flex-col lg:flex-row gap-6 lg:gap-12">
