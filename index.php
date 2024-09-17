@@ -61,12 +61,12 @@
     
 
   </div>
-  <div class="flex justify-center w-full py-4 gap-4 bg-base-200">
+  <!--<div class="flex justify-center w-full py-4 gap-4 bg-base-200">
     <a onclick="scrollCarousel('#slide0')" class="slide-btn btn btn-xs btn-secondary">1</a>
     <a onclick="scrollCarousel('#slide1')" class="slide-btn btn btn-xs btn-primary">2</a> 
     <a onclick="scrollCarousel('#slide2')" class="slide-btn btn btn-xs btn-primary">3</a> 
     <a onclick="scrollCarousel('#slide3')" class="slide-btn btn btn-xs btn-primary">4</a> 
-  </div>
+  </div>-->
   <div class="hero py-12 lg:py-32 bg-base-100">
       <div class="hero-content flex-col lg:flex-row gap-6 lg:gap-12">
         <img src="img/hero.avif" onerror="this.src='img/hero.png'" class="max-md:w-[90%] max-w-sm rounded-lg shadow-2xl" />
