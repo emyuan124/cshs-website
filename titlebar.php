@@ -22,7 +22,7 @@
     <div class="flex-none hidden md:flex">
       <ul class="menu menu-horizontal px-1 gap-3 mr-3">
       <!--<li><a href="/sabercatscare/">Sabercats Care</a></li>-->
-        <li><a href="/hackathon/">Hackathon</a></li>
+        <li><a href="/hackathon">Hackathon</a></li>
         <li><a href="/clubs">Fossil Club List</a></li>
         <li><a href="/cshs">CSHS</a></li>
         <li><a href="/codingclub">Coding Club</a></li>
