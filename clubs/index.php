@@ -4,7 +4,9 @@
     <title>FRHS Tech</title>
     <script src="../js/clubs.js"></script>
     <?php include $_SERVER["DOCUMENT_ROOT"].'/head.php'; ?>
+
 </head>
+<meta http-equiv="refresh" content="0;frhs.tech/404">
 <body data-theme="night">
     <style>
         .dark_gradient {
