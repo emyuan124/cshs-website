@@ -50,7 +50,7 @@
       <a href="img/codingclub-sujal-presenting-fullres.webp"><img src="img/codingclub-sujal-presenting.webp" class="max-md:w-[90%] max-w-sm rounded-lg shadow-2xl" /></a>
       <div class="w-1/2 max-md:w-full max-md:text-center">
         <h1 class="text-5xl font-bold">When and Where Do We Meet?</h1>
-        <p class="py-6">Coding Club meets on Wednesdays during lunch at room 209. Our meetings are weekly with the exception of the 2nd week of every month. <br><br> <i>*The 2nd week of every month is reserved for CSHS.</i></p>
+        <p class="py-6">Coding Club meets on the second and fourth Wednesday of each month during lunch at room 209. Our meetings are weekly with the exception of the 2nd week of every month. <br><br> <i>*The 2nd week of every month is reserved for CSHS.</i></p>
       </div>
     </div>
   </div>
