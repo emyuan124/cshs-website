@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<meta http-equiv="Refresh" content="0; url='frhs.tech/404'" />
 <html lang="en">
 <head>
     <title>FRHS Tech</title>
