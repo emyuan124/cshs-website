@@ -9,7 +9,7 @@
   <?php include $_SERVER["DOCUMENT_ROOT"].'/titlebar.php'; ?>
 
   </div>
-  <div class="hero py-12 lg:py-32 bg-base-100">
+  <div class="hero py-12 lg:py-32 bg-base-200">
     <div class="hero-content flex-col lg:flex-row-reverse gap-6 lg:gap-24">
       <img src="img/logo.png" onerror="this.src='img/hero2.png'" class="max-md:w-[90%] max-w-sm rounded-lg shadow-2xl" />
       <div>
