@@ -8,12 +8,13 @@
 <body class="text-center lg:text-left">
   <?php include $_SERVER["DOCUMENT_ROOT"].'/titlebar.php'; ?>
 
-<div class="logo py-12 lg:py-32 bg-base-100">
-    <div class="logo-content flex-col lg:flex-row-reverse gap-6 lg:gap-24">
-      <img src="img/logo.png" onerror="this.src='img/logo.png'" class="max-md:w-[90%] max-w-sm rounded-lg shadow-2xl" />
+  </div>
+  <div class="hero py-12 lg:py-32 bg-base-100">
+    <div class="hero-content flex-col lg:flex-row-reverse gap-6 lg:gap-24">
+      <img src="img/hero2.avif" onerror="this.src='img/hero2.png'" class="max-md:w-[90%] max-w-sm rounded-lg shadow-2xl" />
       <div>
-        <h1 class="text-5xl font-bold">Why is?</h1>
-        <p class="py-6">A Hackathon is a competition where you create an app to a theme in a short duration of time. Tons of big companies have hackathons yearly to find new talent!</p>
+        <h1 class="text-5xl font-bold">Why Should I Join?</h1>
+        <p class="py-6">5C's is dedicated to making promoting Computer Science in Fossil Ridge. By joining one of the 5C's club, you'll be able to recieve early and priority access to our various events while furthering your knowledge in Computer Science. You'll also have the oppurtunity to work on our in-house service projects and internships, making our organizations a great addition to for college applications. If that sounds a bit difficult, worry not! We provide our own workshops to teach you real Computer Science skills, and we will be providing numerous guest speakers to come in and give you an idea on what it is like to do Computer Science as a career.</p>
       </div>
     </div>
   </div>
