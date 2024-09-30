@@ -8,7 +8,7 @@
 <body class="text-center lg:text-left">
   <?php include $_SERVER["DOCUMENT_ROOT"].'/titlebar.php'; ?>
 
-  <!--<div class="carousel w-full pt-[60px]" id="carousel">
+  <div class="carousel w-full pt-[60px]" id="carousel">
     <div id="slide0" class="carousel-item relative w-full">
       <a href="https://forms.gle/S9Zj1aTc13AQUdGr7">
         <img src="img/banners/Hackathon_Banner_2024.png" class="w-full" />
@@ -17,7 +17,7 @@
         <a onclick="scrollCarousel('#slide3')" class="btn btn-circle max-md:hidden">❮</a>
         <a onclick="scrollCarousel('#slide1')" class="btn btn-circle max-md:hidden">❯</a>
       </div>
-    </div>-->
+    </div>
 
     <!--<div id="slide0" class="carousel-item relative w-full">
       <a href="/sabercatscare/">
