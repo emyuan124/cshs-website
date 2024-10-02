@@ -8,7 +8,7 @@
 <body class="text-center lg:text-left">
   <?php include $_SERVER["DOCUMENT_ROOT"].'/titlebar.php'; ?>
 
-  <div class="banner w-full pt-[60px]" style="background-image: url(img/banners/Hackathon24);">
+  <div class="banner w-full pt-[60px]" style="background-image: url(img/banners/Hackathon24.jpg);">
     <div class="banner-overlay bg-opacity-50"></div>
     <div class="banner-content text-center text-white">
       <div>
