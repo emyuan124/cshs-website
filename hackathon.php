@@ -8,6 +8,15 @@
 <body class="text-center lg:text-left">
   <?php include $_SERVER["DOCUMENT_ROOT"].'/titlebar.php'; ?>
 
+  <div class="banner h-[450px] pt-[60px]" style="background-image: url(img/banners/Hackathon24);">
+    <div class="banner-overlay bg-opacity-50"></div>
+    <div class="banner-content text-center text-white">
+      <div>
+        <h1 class="mb-5 text-5xl font-bold">Hackathon</h1>
+      </div>
+    </div>
+  </div>
+
   </div>
   <div class="hero py-12 lg:py-32 bg-base-200">
     <div class="hero-content flex-col lg:flex-row-reverse gap-6 lg:gap-24">
