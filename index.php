@@ -50,8 +50,8 @@
     </div>
 
     <div id="slide3" class="carousel-item relative w-full">
-      <a href="/instagram">
-        <img src="img/slide1.avif" onerror="this.src='img/slide1.png'" class="w-full" />
+      <a href="https://forms.gle/JpdNgKD686iQa5ZD9">
+        <img src="img/banners/TOTS-Banner.png" class="w-full" />
       </a>
       <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
         <a onclick="scrollCarousel('#slide2')" class="btn btn-circle max-md:hidden">❮</a>
