@@ -3,6 +3,9 @@ These files are automatically synced to [frhs.tech](https://frhs.tech) every min
 Currently, this is just getting started, so expect some minor breakage.
 
 ## Making a development version
+
+Note: The instructions below are EXTREMELY complicated and there are much easier ways to work on a PHP webpage on your own machine. I (Elijah) will work on re-writing these instructions soon
+
 In order to run this, you will need a web server (I recommend [Apache](https://httpd.apache.org/) with PHP and RewriteEngine (or similar)
 
 ### PHP
