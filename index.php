@@ -10,7 +10,7 @@
 
   <div class="carousel w-full pt-[60px]" id="carousel">
     <div id="slide0" class="carousel-item relative w-full">
-      <!--<a href="https://forms.gle/S9Zj1aTc13AQUdGr7">-->
+      <a href="https://forms.gle/JpdNgKD686iQa5ZD9">
         <img src="img/banners/TOTS-Banner.png" class="w-full" />
       </a>
       <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
@@ -55,7 +55,7 @@
       </a>
       <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
         <a onclick="scrollCarousel('#slide2')" class="btn btn-circle max-md:hidden">❮</a>
-        <a onclick="scrollCarousel('#slide1')" class="btn btn-circle max-md:hidden">❯</a>
+        <a onclick="scrollCarousel('#slide0')" class="btn btn-circle max-md:hidden">❯</a>
       </div>
     </div> 
     
