@@ -83,6 +83,16 @@
     -->
 
     <div class="group card card-compact w-[300px] xl:w-1/5 bg-base-200 shadow-xl mt-10 cursor-pointer hover:bg-primary transition duration-300">
+      <a href="https://docs.google.com/presentation/d/1XbTI0u0Z7_CKT6R-kNdOrx76Ad1SVXcC3kDulZ_tf7k/edit?usp=sharing">
+        <figure><img src="img/Slides/ArduinoInto10-23-24.jpg" alt="Picture of Coding Club slide" class="group-hover:opacity-75 transition duration-300" /></figure>
+        <div class="card-body">
+          <div class="badge badge-secondary mx-auto">October 23, 2024</div>
+          <h2 class="card-title text-xl flex justify-center group-hover:text-white transition duration-300">Arduino Intro</h2>
+        </div>
+      </a>
+    </div>
+
+    <div class="group card card-compact w-[300px] xl:w-1/5 bg-base-200 shadow-xl mt-10 cursor-pointer hover:bg-primary transition duration-300">
       <a href="https://docs.google.com/presentation/d/1J6kXnLopqJjZBnHhsShpRfoAzplys2GpQdxNxqJJ-go/edit?usp=sharing">
         <figure><img src="img/coding-club-11-15-2023.png" alt="Picture of Coding Club slide" class="group-hover:opacity-75 transition duration-300" /></figure>
         <div class="card-body">
