@@ -14,7 +14,7 @@ setInterval(() => {
             element.className = `slide-btn btn btn-xs btn-${Number(num) == currentSlide ? "secondary": "primary"}`;
         });
         document.getElementById('carousel').querySelector('#slide' + currentSlide).scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'start' });
-        currentSlide = currentSlide == 3 ? 1 : ++currentSlide;
+        currentSlide = currentSlide == 4 ? 1 : ++currentSlide;
     }
 }, 5000);
 function scrollCarousel(el) {
