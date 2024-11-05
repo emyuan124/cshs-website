@@ -1,16 +1,16 @@
 const position = { x: 0, y: 0 }
 
 function changeTeacher(teacher) {
-    document.getElementById('teacher_img').src = `img/beardify/${teacher}.avif`;
-    document.getElementById('current_teacher').src = `img/beardify/${teacher}.avif`;
+    document.getElementById('teacher_img').src = `img/beardify/${teacher}.png`;
+    document.getElementById('current_teacher').src = `img/beardify/${teacher}.png`;
     if (window.innerWidth < 1024) {
       document.getElementById('teachers').style.display = "none";
     }
 }
 
 function changeBeard(beard) {
-    document.getElementById('beard_img').src = `img/beardify/${beard}.avif`;
-    document.getElementById('current_beard').src = `img/beardify/${beard}.avif`;
+    document.getElementById('beard_img').src = `img/beardify/${beard}.png`;
+    document.getElementById('current_beard').src = `img/beardify/${beard}.png`;
     if (window.innerWidth < 1024) {
       document.getElementById('beards').style.display = "none";
     }
