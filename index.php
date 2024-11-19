@@ -10,7 +10,7 @@
 
   <div class="carousel w-full pt-[60px]" id="carousel">
     <div id="slide0" class="carousel-item relative w-full">
-      <!--<a href="https://forms.gle/S9Zj1aTc13AQUdGr7">-->
+      <a href="https://forms.gle/S9Zj1aTc13AQUdGr7">
         <img src="img/Coding-Club-2024-25-Banner.png" class="w-full" />
       </a>
       <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
