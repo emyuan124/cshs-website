@@ -3,6 +3,7 @@
 <head>
     <title>FRHS Tech</title>
     <?php include $_SERVER["DOCUMENT_ROOT"].'/head.php'; ?>
+    <link rel="icon" type="image/x-icon" href="/img/favicon.ico">
 </head>
 <body data-theme="night">
   <?php include $_SERVER["DOCUMENT_ROOT"].'/titlebar.php'; ?>

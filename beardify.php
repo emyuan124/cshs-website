@@ -17,7 +17,7 @@
         <div class="flex justify-center items-center">
           <div class="avatar">
             <div class="w-24 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
-              <img src="img/beardify/Dannahower.avif" onerror="this.src='img/beardify/Dannahower.png' id="current_teacher" />
+              <img src="img/beardify/Dannahower.png" onerror="this.src='img/beardify/Dannahower.png' id="current_teacher" />
             </div>
           </div>
         </div>
@@ -50,15 +50,14 @@
           // This is done because images should be in both .avif and .png formats
           // AVIF images are much better, but PNGs are more widely supported as of 2023
           $teachers = [["Dannahower", "Mr. Dannahower"], 
-                      ["Forster", "Mr. Forster"],
                       ["Menefee","Mr. Menefee"],
                       ["Peardot","Mr. Peardot"],
                       ["Ruffer","Mr. Ruffer"],
-                      ["Stone","Mr. Stone"],
-                      ["Forkner","Mr. Forkner"],
-                      ["Degear","Mr. Degear"],
+                      ["Stone","Dr. Stone"],
                       ["Reimers","Mr. Reimers"],
-                      ["Brown","Mr. Brown"]
+                      ["Brown","Mr. Brown"],
+                      ["Wilbourn","Mr. Wilbourn"],
+                      ["Jackson","Mr. Jackson"],
           ];
 
           //Loops through each teacher and makes an icon to change to them
@@ -71,7 +70,7 @@
             <div class="group card w-[200px] max-xl:w-[90%] mb-5 bg-base-100 cursor-pointer shadow-xl hover:bg-base-300 transition" onclick="changeTeacher('<?php echo($imgStem) ?>')">
               <figure class="px-2 pt-2">
                 <img 
-                    src="img/beardify/<?php echo($imgStem)?>.avif" 
+                    src="img/beardify/<?php echo($imgStem)?>.png" 
                     onerror="this.src='img/beardify/<?php echo($imgStem)?>.png' 
                     alt="Picture of <?php echo($name) ?>" 
                     class="rounded-xl h-[200px] max-xl:h-full w-full object-fill" />
@@ -91,7 +90,7 @@
         <div class="touch-none resize-drag w-80 max-lg:w-1/2 z-48 absolute box-border hover:outline hover:outline-white hover:outline-2">
           <img id="beard_img" src="img/beardify/Beard_1.avif" class="w-full">
         </div>
-        <img style="height:100%" id="teacher_img" src="img/beardify/Dannahower.avif" onerror="this.src='img/beardify/Dannahower.png'" class="max-lg:w-full mx-auto">
+        <img style="height:100%" id="teacher_img" src="img/beardify/Dannahower.png" onerror="this.src='img/beardify/Dannahower.png'" class="max-lg:w-full mx-auto">
       </div>
       <div id="beards" class="bg-base-200 rounded-lg overflow-y-scroll max-lg:fixed max-lg:h-[calc(100vh-60px)] left-0 top-[60px] max-lg:w-3/4 max-lg:hidden">
         <button class="btn btn-square btn-outline lg:hidden mt-5 mr-5 float-right" onclick="removeMenu(this)">
