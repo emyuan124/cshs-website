@@ -3,13 +3,6 @@ These files are automatically synced to [frhs.tech](https://frhs.tech) every min
 Currently, this is just getting started, so expect some minor breakage.
 
 ## Making a development version
-
-Note: The instructions below are EXTREMELY complicated and there are much easier ways to work on a PHP webpage on your own machine. I (Elijah) will work on re-writing these instructions soon
-
-Note 2: In order to work on the website, you do need your own personal computer
-
-Note 3: All instructions are intended for windows users. Linux users probably are 5 steps ahead of me and I have not tested any of these instructions on a Mac. 
-
 In order to run this, you will need a web server (I recommend [Apache](https://httpd.apache.org/) with PHP and RewriteEngine (or similar)
 
 ### PHP
